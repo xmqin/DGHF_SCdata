@@ -1,0 +1,11 @@
+dgdft -in [inFile]
+in:             Input file (default: dgdft.in)
+[5139623 ## 2023-04-09/10:49:31] warning: cpu [47304]: user's mpe task: tid= 30712, pid= 18051, terminated by sig 11
+[5139623 ## 2023-04-09/10:49:31] warning: cpu [47304]: user's mpe task: tid= 30710, pid= 18048, terminated by sig 11
+[5139623 ## 2023-04-09/10:49:31] warning: cpu [47304]: user's mpe task: tid= 30713, pid= 18052, terminated by sig 11
+[5139623 ## 2023-04-09/10:49:32] warning: cpu [47304]: user's mpe task: tid= 30708, pid= 18045, terminated by sig 11
+[5139623 ## 2023-04-09/10:49:32] warning: cpu [47304]: user's mpe task: tid= 30711, pid= 18050, terminated by sig 11
+[5139623 ## 2023-04-09/10:49:32] warning: cpu [47304]: user's mpe task: tid= 30709, pid= 18046, terminated by sig 11
+[5139623 ## 2023-04-09/15:53:24] receive request of kill job(bkill).
+dgdft -in [inFile]
+in:             Input file (default: dgdft.in)

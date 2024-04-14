@@ -1,0 +1,4 @@
+pwdft -in [inFile]
+in:             Input file (default: pwdft.in)
+pwdft -in [inFile]
+in:             Input file (default: pwdft.in)

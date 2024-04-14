@@ -1,0 +1,7 @@
+pwdft -in [inFile]
+in:             Input file (default: pwdft.in)
+pwdft -in [inFile]
+in:             Input file (default: pwdft.in)
+[5133476 ## 2023-04-07/16:00:19] receive request of kill job(bkill).
+pwdft -in [inFile]
+in:             Input file (default: pwdft.in)

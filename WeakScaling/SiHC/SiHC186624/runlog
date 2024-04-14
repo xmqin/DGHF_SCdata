@@ -1,0 +1,4 @@
+dgdft -in [inFile]
+in:             Input file (default: dgdft.in)
+WARN: [vn087698] [2023-04-13 06:58:36] resend wqe, sqn = 124, status = 0x1, opcode = 0xa, retry_cnt = 63, wrid = 0x555, src_guid = 0x15692, dst_guid = 0x16d94, dst_cpu = 93588
+[5161364 ## 2023-04-13/07:17:43] receive request of kill job(bkill).

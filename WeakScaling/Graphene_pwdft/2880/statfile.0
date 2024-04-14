@@ -1,0 +1,137 @@
+mpirank = 0               
+mpisize = 5760            
+Time for reading the raw input file is 0.000256316 [s]
+
+
+*********************************************************************
+Common information
+*********************************************************************
+
+Super cell                           = +1.51178096e+01 +1.61036608e+02 +1.67354153e+02 
+Grid Wavefunction                    = 38              398             414             
+Grid Density                         = 38              398             414             
+Mixing dimension                     = 5               
+Mixing variable                      = potential       
+Mixing type                          = anderson        
+Mixing Steplength                    = +3.00000000e-02 
+Temperature                          = +1.00000000e+02 [K]   
+Extra states                         = 0               
+Smearing scheme                      = FD              
+PeriodTable File                     =                 
+Pseudo Type                          = ONCV            
+PW Solver                            = PPCG            
+XC Type                              = XC_HYB_GGA_XC_HSE06
+SCF Outer Tol                        = +1.00000000e-06 
+SCF Outer MaxIter                    = 3               
+SCF Free Energy Per Atom Tol         = +1.00000000e-04 
+Eig Min Tolerence                    = +1.00000000e-03 
+Eig Tolerence                        = +1.00000000e-20 
+Eig MaxIter                          = 3               
+Eig Tolerance Dyn                    = false   
+Num unused state                     = 0               
+EcutWavefunction                     = +3.00000000e+01 
+Density GridFactor                   = +1.00000000e+00 
+Use Atom Density                     = false   
+Use VLocal                           = false   
+RestartDensity                       = false   
+RestartWfn                           = false   
+OutputDensity                        = false   
+OutputPotential                      = false   
+Number of Extra Electron             = 0               
+
+*********************************************************************
+PWDFT information
+*********************************************************************
+
+SCF Phi MaxIter                      = 3               
+SCF Phi Tol                          = +1.00000000e-07 
+Hybrid ACE                           = true    
+Hybrid DF                            = false   
+Hybrid Active Init                   = false   
+Hybrid Mixing Type                   = nested          
+Hybrid DF Num Mu                     = +8.00000000e+00 
+Hybrid DF Num GaussianRandom         = +2.00000000e+00 
+Hybrid DF Tolerance                  = +1.00000000e-20 
+EXX div type                         = 1               
+
+ UPF version: 2
+XC_HYB_GGA_XC_HSE06  XCId = 428
+
+Computing the local pseudopotential
+Time for local pseudopotential 7.7349493
+Sum of Pseudocharge                          = -2.60732323e+06 
+Number of Occupied States                    = 5760            
+After adjustment, Sum of Pseudocharge        = +1.15200000e+04 
+Computing the non-local pseudopotential
+Total number of nonlocal pseudopotential = 23040           
+Time for nonlocal pseudopotential 3.1425613
+Time for calculating the pseudopotential for the Hamiltonian = 10.920773 [s]
+Spinor setup finished.
+computed exxDiv_ = 1290.9759
+Hybrid mixing parameter  = 0.25
+Hybrid screening length = 0.106
+Time for setting up the exchange for the Hamiltonian part = 2.450728 [s]
+Eigensolver setup finished .
+Generating initial density through linear combination of pseudocharges.
+Initial density. Sum of density      = +1.15200936e+04 
+Rescaled density. Sum of density      = +1.15200000e+04 
+SCF setup finished .
+ 
+Time for computing gradDensity in XC HSE06 is 8.5509528e-06 [s]
+
+Time for computing xc_gga_exc_vxc in XC HSE06 is 0.050985363 [s]
+
+Time for MPI_Allgatherv in XC HSE06 is 0.56067668 [s]
+
+ 
+Time for computing total xc energy in XC is 0.09646876 [s]
+
+
+*********************************************************************
+Starting regular SCF iteration.
+*********************************************************************
+
+XC_GGA_XC_PBE  XId_ CId_ = 101 130
+
+ re-calculate XC 
+Time for computing gradDensity in XC GGA-PBE is 1.0101428e-05 [s]
+
+Time for calling the XC kernel in XC GGA-PBE is 0.0027524133 [s]
+
+Time for MPI_Allgatherv in XC GGA-PBE is 0.56811603 [s]
+
+ 
+Time for computing total xc energy in XC is 0.09612108 [s]
+
+
+*********************************************************************
+SCF iteration # 1
+*********************************************************************
+
+The current tolerance used by the eigensolver is 1e-20
+The target number of converged eigenvectors is 5760
+Print time for Hpsi in spinor module 
+Time for blas::Copy       = 4  timeCopy         = 0.12189308
+Time for iterFFTCoarse    = 2  timeFFTCoarse    = 0.24704635
+Time for iterFFTFine      = 2  timeFFTFine      = 0.24723694
+Time for Interpolation    = 2  timeC2F          = 0.0095106738
+Time for Local            = 1  timeLocal        = 0.0056517724
+Time for Nonlocal         = 1  timeNonlocal     = 0.047052
+Time for Laplace          = 1  timeLaplace      = 0.0039344162
+Time for psi.AddMultSpinorFineR2C is 0.8382638 [s]
+
+Minimum tolerance is 0.001
+Print time for Precondition
+Time for Copy             = 2  timeCopy         = 0.080238259
+Time for iterFFTCoarse    = 2  timeFFTCoarse    = 0.24733111
+Time for Teter            = 1  timeTeter        = 0.0037697033
+Print time for Hpsi in spinor module 
+Time for blas::Copy       = 4  timeCopy         = 0.12043867
+Time for iterFFTCoarse    = 2  timeFFTCoarse    = 0.24685384
+Time for iterFFTFine      = 2  timeFFTFine      = 0.24665652
+Time for Interpolation    = 2  timeC2F          = 0.0094236686
+Time for Local            = 1  timeLocal        = 0.005721339
+Time for Nonlocal         = 1  timeNonlocal     = 0.047048845
+Time for Laplace          = 1  timeLaplace      = 0.003989261
+Time for psi.AddMultSpinorFineR2C is 0.83574899 [s]
+

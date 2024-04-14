@@ -1,0 +1,3 @@
+dgdft -in [inFile]
+in:             Input file (default: dgdft.in)
+BUG: [2023-04-14 23:45:37] [vn081922:1796] failure at src/win.c:197/put_send_window()!

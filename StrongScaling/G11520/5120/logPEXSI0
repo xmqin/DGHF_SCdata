@@ -1,0 +1,826 @@
+H.size     = 122880
+H.nnzLocal = 979200
+S.size     = 0
+S.nnzLocal = 0
+
+
+20 numProcCol: 256 numPole 120
+5120 0 myPoint 0 nPoints 2
+rank : 0
+node_info : vn560, CG0
+Perform symbolic factorization now.
+Symbolic factorization for the complex matrix.
+Time for SuperMatrix conversion is 0.0117077 [s]
+
+Memory cost of symbolic factorization (MB): 
+Total: 54564.5, Average: 213.142, Max: 289.49
+
+Time for symbolic factorization is 112.126 [s]
+
+Time for converting LUstruct to PMatrix is 0.403966 [s]
+
+Time for constructing communication pattern is 0.204793 [s]
+
+Number of local nonzeros (L+U) = 13531994
+Number of nonzeros (L+U)       = 2675970484
+
+input (muMin, muMax)   = (-1, 1)
+  >> total Number of Points : 2
+  >> Pole Expansion Method  : 1
+  >> number of Poles used   : 120
+
+Pole 0 processing...
+zshift           = (-0.333289,0.000704865)
+zweightRho       = (1.08791e-05,-2.72055e-05)
+Total FLOPs for factorization is (by swperf)2.1658e+14
+******************SUPERLU STATISTICS****************
+Number of tiny pivots: 0
+Number of look aheads: 10
+Number of FLOPS for factorization: 1.67707e+14
+****************************************************
+Time for total factorization is 9.80642 [s]
+Total FLOPs for selected inversion is (by swperf)2.20869e+14
+Time for total selected inversion is 12.226 [s]
+Total FLOPs for selected inversion is 1.68995e+14
+Total TFLOPS for selected inversion is 13.8226
+Time for PMatrixToDistSparseMatrix is 1.73767 [s]
+Time for UpdateDM is 0.0934768 [s]
+Time for postprocessing is 1.83284 [s]
+Time for pole 0 is 23.9132 [s]
+
+Pole 10 processing...
+zshift           = (-0.33212,0.00140217)
+zweightRho       = (-1.33546e-06,9.01735e-07)
+Total FLOPs for factorization is (by swperf)2.1658e+14
+******************SUPERLU STATISTICS****************
+Number of tiny pivots: 0
+Number of look aheads: 10
+Number of FLOPS for factorization: 1.67707e+14
+****************************************************
+Time for total factorization is 9.80289 [s]
+Total FLOPs for selected inversion is (by swperf)2.20869e+14
+Time for total selected inversion is 12.1722 [s]
+Total FLOPs for selected inversion is 1.68995e+14
+Total TFLOPS for selected inversion is 13.8836
+Time for PMatrixToDistSparseMatrix is 1.73878 [s]
+Time for UpdateDM is 0.0969373 [s]
+Time for postprocessing is 1.83747 [s]
+Time for pole 10 is 23.8591 [s]
+
+Pole 20 processing...
+zshift           = (-0.328794,0.00459306)
+zweightRho       = (6.14976e-11,-1.40375e-10)
+Total FLOPs for factorization is (by swperf)2.1658e+14
+******************SUPERLU STATISTICS****************
+Number of tiny pivots: 0
+Number of look aheads: 10
+Number of FLOPS for factorization: 1.67707e+14
+****************************************************
+Time for total factorization is 9.69985 [s]
+Total FLOPs for selected inversion is (by swperf)2.20869e+14
+Time for total selected inversion is 12.1621 [s]
+Total FLOPs for selected inversion is 1.68995e+14
+Total TFLOPS for selected inversion is 13.8952
+Time for PMatrixToDistSparseMatrix is 1.73634 [s]
+Time for UpdateDM is 0.0935319 [s]
+Time for postprocessing is 1.83153 [s]
+Time for pole 20 is 23.7407 [s]
+
+Pole 30 processing...
+zshift           = (-0.33375,-0.000817839)
+zweightRho       = (-3.69222e-05,-2.82694e-05)
+Total FLOPs for factorization is (by swperf)2.1658e+14
+******************SUPERLU STATISTICS****************
+Number of tiny pivots: 0
+Number of look aheads: 10
+Number of FLOPS for factorization: 1.67707e+14
+****************************************************
+Time for total factorization is 9.67886 [s]
+Total FLOPs for selected inversion is (by swperf)2.20869e+14
+Time for total selected inversion is 12.3589 [s]
+Total FLOPs for selected inversion is 1.68995e+14
+Total TFLOPS for selected inversion is 13.6739
+Time for PMatrixToDistSparseMatrix is 1.73654 [s]
+Time for UpdateDM is 0.0972701 [s]
+Time for postprocessing is 1.83552 [s]
+Time for pole 30 is 23.9209 [s]
+
+Pole 40 processing...
+zshift           = (-0.335432,-0.00221357)
+zweightRho       = (-8.79486e-05,-8.35324e-05)
+Total FLOPs for factorization is (by swperf)2.1658e+14
+******************SUPERLU STATISTICS****************
+Number of tiny pivots: 0
+Number of look aheads: 10
+Number of FLOPS for factorization: 1.67707e+14
+****************************************************
+Time for total factorization is 9.6505 [s]
+Total FLOPs for selected inversion is (by swperf)2.2087e+14
+Time for total selected inversion is 12.2007 [s]
+Total FLOPs for selected inversion is 1.68995e+14
+Total TFLOPS for selected inversion is 13.8512
+Time for PMatrixToDistSparseMatrix is 1.73587 [s]
+Time for UpdateDM is 0.093724 [s]
+Time for postprocessing is 1.83127 [s]
+Time for pole 40 is 23.7296 [s]
+
+Pole 50 processing...
+zshift           = (-0.340846,-0.00754587)
+zweightRho       = (-0.000300355,-0.000299047)
+Total FLOPs for factorization is (by swperf)2.1658e+14
+******************SUPERLU STATISTICS****************
+Number of tiny pivots: 0
+Number of look aheads: 10
+Number of FLOPS for factorization: 1.67707e+14
+****************************************************
+Time for total factorization is 9.681 [s]
+Total FLOPs for selected inversion is (by swperf)2.20869e+14
+Time for total selected inversion is 12.1937 [s]
+Total FLOPs for selected inversion is 1.68995e+14
+Total TFLOPS for selected inversion is 13.8592
+Time for PMatrixToDistSparseMatrix is 1.73834 [s]
+Time for UpdateDM is 0.0970887 [s]
+Time for postprocessing is 1.83716 [s]
+Time for pole 50 is 23.7588 [s]
+
+Pole 60 processing...
+zshift           = (-0.359622,-0.0262976)
+zweightRho       = (-0.00104675,-0.00104637)
+Total FLOPs for factorization is (by swperf)2.1658e+14
+******************SUPERLU STATISTICS****************
+Number of tiny pivots: 0
+Number of look aheads: 10
+Number of FLOPS for factorization: 1.67707e+14
+****************************************************
+Time for total factorization is 9.54018 [s]
+Total FLOPs for selected inversion is (by swperf)2.20869e+14
+Time for total selected inversion is 12.1553 [s]
+Total FLOPs for selected inversion is 1.68995e+14
+Total TFLOPS for selected inversion is 13.903
+Time for PMatrixToDistSparseMatrix is 1.73696 [s]
+Time for UpdateDM is 0.0946436 [s]
+Time for postprocessing is 1.83322 [s]
+Time for pole 60 is 23.5762 [s]
+
+Pole 70 processing...
+zshift           = (-0.425147,-0.091816)
+zweightRho       = (-0.0036547,-0.0036545)
+Total FLOPs for factorization is (by swperf)2.1658e+14
+******************SUPERLU STATISTICS****************
+Number of tiny pivots: 0
+Number of look aheads: 10
+Number of FLOPS for factorization: 1.67707e+14
+****************************************************
+Time for total factorization is 9.61217 [s]
+Total FLOPs for selected inversion is (by swperf)2.20869e+14
+Time for total selected inversion is 12.207 [s]
+Total FLOPs for selected inversion is 1.68995e+14
+Total TFLOPS for selected inversion is 13.8441
+Time for PMatrixToDistSparseMatrix is 1.73614 [s]
+Time for UpdateDM is 0.0933107 [s]
+Time for postprocessing is 1.83109 [s]
+Time for pole 70 is 23.6971 [s]
+
+Pole 80 processing...
+zshift           = (-0.653968,-0.320603)
+zweightRho       = (-0.0127639,-0.0127599)
+Total FLOPs for factorization is (by swperf)2.1658e+14
+******************SUPERLU STATISTICS****************
+Number of tiny pivots: 0
+Number of look aheads: 10
+Number of FLOPS for factorization: 1.67707e+14
+****************************************************
+Time for total factorization is 9.51279 [s]
+Total FLOPs for selected inversion is (by swperf)2.20869e+14
+Time for total selected inversion is 12.1676 [s]
+Total FLOPs for selected inversion is 1.68995e+14
+Total TFLOPS for selected inversion is 13.8889
+Time for PMatrixToDistSparseMatrix is 1.73743 [s]
+Time for UpdateDM is 0.0960171 [s]
+Time for postprocessing is 1.83507 [s]
+Time for pole 80 is 23.5626 [s]
+
+Pole 90 processing...
+zshift           = (-1.45364,-1.11891)
+zweightRho       = (-0.0446482,-0.044481)
+Total FLOPs for factorization is (by swperf)2.1658e+14
+******************SUPERLU STATISTICS****************
+Number of tiny pivots: 0
+Number of look aheads: 10
+Number of FLOPS for factorization: 1.67707e+14
+****************************************************
+Time for total factorization is 9.62884 [s]
+Total FLOPs for selected inversion is (by swperf)2.20869e+14
+Time for total selected inversion is 12.1654 [s]
+Total FLOPs for selected inversion is 1.68995e+14
+Total TFLOPS for selected inversion is 13.8914
+Time for PMatrixToDistSparseMatrix is 1.73598 [s]
+Time for UpdateDM is 0.0934014 [s]
+Time for postprocessing is 1.831 [s]
+Time for pole 90 is 23.6715 [s]
+
+Pole 100 processing...
+zshift           = (-4.27257,-3.87965)
+zweightRho       = (-0.159133,-0.152018)
+Total FLOPs for factorization is (by swperf)2.1658e+14
+******************SUPERLU STATISTICS****************
+Number of tiny pivots: 0
+Number of look aheads: 10
+Number of FLOPS for factorization: 1.67707e+14
+****************************************************
+Time for total factorization is 9.51056 [s]
+Total FLOPs for selected inversion is (by swperf)2.20869e+14
+Time for total selected inversion is 12.152 [s]
+Total FLOPs for selected inversion is 1.68995e+14
+Total TFLOPS for selected inversion is 13.9068
+Time for PMatrixToDistSparseMatrix is 1.7381 [s]
+Time for UpdateDM is 0.0938011 [s]
+Time for postprocessing is 1.8335 [s]
+Time for pole 100 is 23.5425 [s]
+
+Pole 110 processing...
+zshift           = (-15.1269,-12.2778)
+zweightRho       = (-0.668814,-0.371832)
+Total FLOPs for factorization is (by swperf)2.1658e+14
+******************SUPERLU STATISTICS****************
+Number of tiny pivots: 0
+Number of look aheads: 10
+Number of FLOPS for factorization: 1.67707e+14
+****************************************************
+Time for total factorization is 9.65726 [s]
+Total FLOPs for selected inversion is (by swperf)2.20869e+14
+Time for total selected inversion is 12.2044 [s]
+Total FLOPs for selected inversion is 1.68995e+14
+Total TFLOPS for selected inversion is 13.847
+Time for PMatrixToDistSparseMatrix is 1.73592 [s]
+Time for UpdateDM is 0.0964087 [s]
+Time for postprocessing is 1.83392 [s]
+Time for pole 110 is 23.7448 [s]
+
+
+numElecLocal = -4.61562e-11
+PEXSI Converged 
+converged idx               = 1               
+converged NeVec[mu_idx]     = +4.23378533e+04 
+numElectronTolerance        = +5.00000000e-01 
+Final mu                    = +3.33333333e-01 
+ Free Energy S Tr[S*FDM] 3139.8052
+
+(Point 0) Total number of inertia counts       = 0
+(Point 0) Total time for inertia count step    = 0 [s]
+(Point 0) Total time for PEXSI step            = 285.77024 [s]
+(Point 0) Total time for the DFT driver        = 398.86321 [s]
+
+Final result 
+mu                          = +3.33333333e-01 
+muMin                       = +3.33333333e-01 
+muMax                       = +1.00000000e+00 
+Computed number of electron = -1.18124968e-08 
+Exact number of electron    = +4.60800000e+04 
+Total energy (H*DM)         = +1.89244329e+03 
+Total energy (Tr[EDM])      = +1.02561529e-06 
+Total free energy           = +3.13980523e+03 
+
+
+H.size     = 122880
+H.nnzLocal = 979200
+S.size     = 0
+S.nnzLocal = 0
+
+
+20 numProcCol: 256 numPole 120
+5120 0 myPoint 0 nPoints 2
+rank : 0
+node_info : vn560, CG0
+Skip symbolic factorization
+NOTE: This assumes that symbolic factorization has been done, and the input H and S matrices have the same sparisty as previously used.
+
+input (muMin, muMax)   = (0.26051119, 1.0585616)
+  >> total Number of Points : 2
+  >> Pole Expansion Method  : 1
+  >> number of Poles used   : 120
+
+Pole 0 processing...
+zshift           = (0.52657202,0.00070486494)
+zweightRho       = (1.0879093e-05,-2.720546e-05)
+Total FLOPs for factorization is (by swperf)2.1657971e+14
+******************SUPERLU STATISTICS****************
+Number of tiny pivots: 0
+Number of look aheads: 10
+Number of FLOPS for factorization: 1.67707e+14
+****************************************************
+Time for total factorization is 9.7522211 [s]
+Total FLOPs for selected inversion is (by swperf)2.2086936e+14
+Time for total selected inversion is 12.058627 [s]
+Total FLOPs for selected inversion is 1.6899473e+14
+Total TFLOPS for selected inversion is 14.014425
+Time for PMatrixToDistSparseMatrix is 1.7372632 [s]
+Time for UpdateDM is 0.095115052 [s]
+Time for postprocessing is 1.8340494 [s]
+Time for pole 0 is 23.6923 [s]
+
+Pole 10 processing...
+zshift           = (0.52774093,0.0014021691)
+zweightRho       = (-1.3354594e-06,9.0173459e-07)
+Total FLOPs for factorization is (by swperf)2.1657971e+14
+******************SUPERLU STATISTICS****************
+Number of tiny pivots: 0
+Number of look aheads: 10
+Number of FLOPS for factorization: 1.67707e+14
+****************************************************
+Time for total factorization is 9.7636382 [s]
+Total FLOPs for selected inversion is (by swperf)2.2086923e+14
+Time for total selected inversion is 12.12231 [s]
+Total FLOPs for selected inversion is 1.6899473e+14
+Total TFLOPS for selected inversion is 13.940802
+Time for PMatrixToDistSparseMatrix is 1.7370879 [s]
+Time for UpdateDM is 0.092935443 [s]
+Time for postprocessing is 1.8316487 [s]
+Time for pole 10 is 23.765522 [s]
+
+Pole 20 processing...
+zshift           = (0.53106687,0.0045930608)
+zweightRho       = (6.1497623e-11,-1.403755e-10)
+Total FLOPs for factorization is (by swperf)2.1657971e+14
+******************SUPERLU STATISTICS****************
+Number of tiny pivots: 0
+Number of look aheads: 10
+Number of FLOPS for factorization: 1.67707e+14
+****************************************************
+Time for total factorization is 9.8128201 [s]
+Total FLOPs for selected inversion is (by swperf)2.2086947e+14
+Time for total selected inversion is 12.177284 [s]
+Total FLOPs for selected inversion is 1.6899473e+14
+Total TFLOPS for selected inversion is 13.877866
+Time for PMatrixToDistSparseMatrix is 1.7365543 [s]
+Time for UpdateDM is 0.092342192 [s]
+Time for postprocessing is 1.83056 [s]
+Time for pole 20 is 23.868063 [s]
+
+Pole 30 processing...
+zshift           = (0.52611092,-0.00081783894)
+zweightRho       = (-3.6922192e-05,-2.8269426e-05)
+Total FLOPs for factorization is (by swperf)2.1657971e+14
+******************SUPERLU STATISTICS****************
+Number of tiny pivots: 0
+Number of look aheads: 10
+Number of FLOPS for factorization: 1.67707e+14
+****************************************************
+Time for total factorization is 9.5509542 [s]
+Total FLOPs for selected inversion is (by swperf)2.2086914e+14
+Time for total selected inversion is 12.159689 [s]
+Total FLOPs for selected inversion is 1.6899473e+14
+Total TFLOPS for selected inversion is 13.897948
+Time for PMatrixToDistSparseMatrix is 1.7396958 [s]
+Time for UpdateDM is 0.096632487 [s]
+Time for postprocessing is 1.8379474 [s]
+Time for pole 30 is 23.597124 [s]
+
+Pole 40 processing...
+zshift           = (0.5244292,-0.0022135715)
+zweightRho       = (-8.7948563e-05,-8.3532393e-05)
+Total FLOPs for factorization is (by swperf)2.1657971e+14
+******************SUPERLU STATISTICS****************
+Number of tiny pivots: 0
+Number of look aheads: 10
+Number of FLOPS for factorization: 1.67707e+14
+****************************************************
+Time for total factorization is 9.6985112 [s]
+Total FLOPs for selected inversion is (by swperf)2.2086944e+14
+Time for total selected inversion is 12.239673 [s]
+Total FLOPs for selected inversion is 1.6899473e+14
+Total TFLOPS for selected inversion is 13.807128
+Time for PMatrixToDistSparseMatrix is 1.7374347 [s]
+Time for UpdateDM is 0.092845765 [s]
+Time for postprocessing is 1.8319181 [s]
+Time for pole 40 is 23.817195 [s]
+
+Pole 50 processing...
+zshift           = (0.519015,-0.0075458718)
+zweightRho       = (-0.00030035546,-0.00029904729)
+Total FLOPs for factorization is (by swperf)2.1657971e+14
+******************SUPERLU STATISTICS****************
+Number of tiny pivots: 0
+Number of look aheads: 10
+Number of FLOPS for factorization: 1.67707e+14
+****************************************************
+Time for total factorization is 9.6226285 [s]
+Total FLOPs for selected inversion is (by swperf)2.2086935e+14
+Time for total selected inversion is 12.166414 [s]
+Total FLOPs for selected inversion is 1.6899473e+14
+Total TFLOPS for selected inversion is 13.890266
+Time for PMatrixToDistSparseMatrix is 1.7371063 [s]
+Time for UpdateDM is 0.091895926 [s]
+Time for postprocessing is 1.8306318 [s]
+Time for pole 50 is 23.66717 [s]
+
+Pole 60 processing...
+zshift           = (0.50023982,-0.02629758)
+zweightRho       = (-0.0010467487,-0.001046372)
+Total FLOPs for factorization is (by swperf)2.1657971e+14
+******************SUPERLU STATISTICS****************
+Number of tiny pivots: 0
+Number of look aheads: 10
+Number of FLOPS for factorization: 1.67707e+14
+****************************************************
+Time for total factorization is 9.7440366 [s]
+Total FLOPs for selected inversion is (by swperf)2.2086922e+14
+Time for total selected inversion is 12.202189 [s]
+Total FLOPs for selected inversion is 1.6899473e+14
+Total TFLOPS for selected inversion is 13.849542
+Time for PMatrixToDistSparseMatrix is 1.7363144 [s]
+Time for UpdateDM is 0.092818093 [s]
+Time for postprocessing is 1.8307589 [s]
+Time for pole 60 is 23.82388 [s]
+
+Pole 70 processing...
+zshift           = (0.43471394,-0.091815988)
+zweightRho       = (-0.0036546995,-0.0036545001)
+Total FLOPs for factorization is (by swperf)2.1657971e+14
+******************SUPERLU STATISTICS****************
+Number of tiny pivots: 0
+Number of look aheads: 10
+Number of FLOPS for factorization: 1.67707e+14
+****************************************************
+Time for total factorization is 9.6452473 [s]
+Total FLOPs for selected inversion is (by swperf)2.2086932e+14
+Time for total selected inversion is 12.200466 [s]
+Total FLOPs for selected inversion is 1.6899473e+14
+Total TFLOPS for selected inversion is 13.851497
+Time for PMatrixToDistSparseMatrix is 1.7389808 [s]
+Time for UpdateDM is 0.095270721 [s]
+Time for postprocessing is 1.8358537 [s]
+Time for pole 70 is 23.729103 [s]
+
+Pole 80 processing...
+zshift           = (0.20589292,-0.32060299)
+zweightRho       = (-0.012763878,-0.012759923)
+Total FLOPs for factorization is (by swperf)2.1657971e+14
+******************SUPERLU STATISTICS****************
+Number of tiny pivots: 0
+Number of look aheads: 10
+Number of FLOPS for factorization: 1.67707e+14
+****************************************************
+Time for total factorization is 9.691051 [s]
+Total FLOPs for selected inversion is (by swperf)2.2086934e+14
+Time for total selected inversion is 12.172483 [s]
+Total FLOPs for selected inversion is 1.6899473e+14
+Total TFLOPS for selected inversion is 13.883341
+Time for PMatrixToDistSparseMatrix is 1.7363994 [s]
+Time for UpdateDM is 0.095221576 [s]
+Time for postprocessing is 1.833262 [s]
+Time for pole 80 is 23.743625 [s]
+
+Pole 90 processing...
+zshift           = (-0.59377621,-1.118905)
+zweightRho       = (-0.044648164,-0.044481047)
+Total FLOPs for factorization is (by swperf)2.1657971e+14
+******************SUPERLU STATISTICS****************
+Number of tiny pivots: 0
+Number of look aheads: 10
+Number of FLOPS for factorization: 1.67707e+14
+****************************************************
+Time for total factorization is 9.7385237 [s]
+Total FLOPs for selected inversion is (by swperf)2.2086929e+14
+Time for total selected inversion is 12.124226 [s]
+Total FLOPs for selected inversion is 1.6899473e+14
+Total TFLOPS for selected inversion is 13.938599
+Time for PMatrixToDistSparseMatrix is 1.7373105 [s]
+Time for UpdateDM is 0.095606782 [s]
+Time for postprocessing is 1.8345392 [s]
+Time for pole 90 is 23.743971 [s]
+
+Pole 100 processing...
+zshift           = (-3.412711,-3.8796522)
+zweightRho       = (-0.1591326,-0.15201778)
+Total FLOPs for factorization is (by swperf)2.1657971e+14
+******************SUPERLU STATISTICS****************
+Number of tiny pivots: 0
+Number of look aheads: 10
+Number of FLOPS for factorization: 1.67707e+14
+****************************************************
+Time for total factorization is 9.7396759 [s]
+Total FLOPs for selected inversion is (by swperf)2.2086902e+14
+Time for total selected inversion is 12.175884 [s]
+Total FLOPs for selected inversion is 1.6899473e+14
+Total TFLOPS for selected inversion is 13.879463
+Time for PMatrixToDistSparseMatrix is 1.7384251 [s]
+Time for UpdateDM is 0.093390611 [s]
+Time for postprocessing is 1.8333954 [s]
+Time for pole 100 is 23.795746 [s]
+
+Pole 110 processing...
+zshift           = (-14.267072,-12.277847)
+zweightRho       = (-0.66881356,-0.37183247)
+Total FLOPs for factorization is (by swperf)2.1657971e+14
+******************SUPERLU STATISTICS****************
+Number of tiny pivots: 0
+Number of look aheads: 10
+Number of FLOPS for factorization: 1.67707e+14
+****************************************************
+Time for total factorization is 9.7256547 [s]
+Total FLOPs for selected inversion is (by swperf)2.2086944e+14
+Time for total selected inversion is 12.180197 [s]
+Total FLOPs for selected inversion is 1.6899473e+14
+Total TFLOPS for selected inversion is 13.874548
+Time for PMatrixToDistSparseMatrix is 1.736469 [s]
+Time for UpdateDM is 0.090168509 [s]
+Time for postprocessing is 1.8281199 [s]
+Time for pole 110 is 23.781967 [s]
+
+
+numElecLocal = 224.4722
+PEXSI Converged 
+converged idx               = 0               
+converged NeVec[mu_idx]     = +5.74452080e+04 
+numElectronTolerance        = +1.08029031e-01 
+Final mu                    = +5.26528008e-01 
+ Free Energy S Tr[S*FDM] -4521.8395
+
+(Point 0) Total number of inertia counts       = 0
+(Point 0) Total time for inertia count step    = 0 [s]
+(Point 0) Total time for PEXSI step            = 286.40281 [s]
+(Point 0) Total time for the DFT driver        = 286.43859 [s]
+
+Final result 
+mu                          = +5.26528008e-01 
+muMin                       = +2.60511191e-01 
+muMax                       = +5.26528008e-01 
+Computed number of electron = +5.74452080e+04 
+Exact number of electron    = +4.60800000e+04 
+Total energy (H*DM)         = +1.46227178e+03 
+Total energy (Tr[EDM])      = +1.46227179e+03 
+Total free energy           = -4.52183947e+03 
+
+
+H.size     = 122880
+H.nnzLocal = 979200
+S.size     = 0
+S.nnzLocal = 0
+
+
+20 numProcCol: 256 numPole 120
+5120 0 myPoint 0 nPoints 2
+rank : 0
+node_info : vn560, CG0
+Skip symbolic factorization
+NOTE: This assumes that symbolic factorization has been done, and the input H and S matrices have the same sparisty as previously used.
+
+input (muMin, muMax)   = (0.23057374, 0.55336535)
+  >> total Number of Points : 2
+  >> Pole Expansion Method  : 1
+  >> number of Poles used   : 120
+
+Pole 0 processing...
+zshift           = (0.33821496,0.00070486494)
+zweightRho       = (1.0879093e-05,-2.720546e-05)
+Total FLOPs for factorization is (by swperf)2.1657971e+14
+******************SUPERLU STATISTICS****************
+Number of tiny pivots: 0
+Number of look aheads: 10
+Number of FLOPS for factorization: 1.67707e+14
+****************************************************
+Time for total factorization is 9.7228162 [s]
+Total FLOPs for selected inversion is (by swperf)2.208692e+14
+Time for total selected inversion is 12.019421 [s]
+Total FLOPs for selected inversion is 1.6899473e+14
+Total TFLOPS for selected inversion is 14.060139
+Time for PMatrixToDistSparseMatrix is 1.7444754 [s]
+Time for UpdateDM is 0.092970581 [s]
+Time for postprocessing is 1.8390301 [s]
+Time for pole 0 is 23.629076 [s]
+
+Pole 10 processing...
+zshift           = (0.33938386,0.0014021691)
+zweightRho       = (-1.3354594e-06,9.0173459e-07)
+Total FLOPs for factorization is (by swperf)2.1657971e+14
+******************SUPERLU STATISTICS****************
+Number of tiny pivots: 0
+Number of look aheads: 10
+Number of FLOPS for factorization: 1.67707e+14
+****************************************************
+Time for total factorization is 9.7156581 [s]
+Total FLOPs for selected inversion is (by swperf)2.2086931e+14
+Time for total selected inversion is 12.183775 [s]
+Total FLOPs for selected inversion is 1.6899473e+14
+Total TFLOPS for selected inversion is 13.870473
+Time for PMatrixToDistSparseMatrix is 1.7451828 [s]
+Time for UpdateDM is 0.09375698 [s]
+Time for postprocessing is 1.8405897 [s]
+Time for pole 10 is 23.787058 [s]
+
+Pole 20 processing...
+zshift           = (0.34270981,0.0045930608)
+zweightRho       = (6.1497623e-11,-1.403755e-10)
+Total FLOPs for factorization is (by swperf)2.1657971e+14
+******************SUPERLU STATISTICS****************
+Number of tiny pivots: 0
+Number of look aheads: 10
+Number of FLOPS for factorization: 1.67707e+14
+****************************************************
+Time for total factorization is 9.7383804 [s]
+Total FLOPs for selected inversion is (by swperf)2.2086946e+14
+Time for total selected inversion is 12.203715 [s]
+Total FLOPs for selected inversion is 1.6899473e+14
+Total TFLOPS for selected inversion is 13.84781
+Time for PMatrixToDistSparseMatrix is 1.7451397 [s]
+Time for UpdateDM is 0.092928384 [s]
+Time for postprocessing is 1.839713 [s]
+Time for pole 20 is 23.829209 [s]
+
+Pole 30 processing...
+zshift           = (0.33775385,-0.00081783894)
+zweightRho       = (-3.6922192e-05,-2.8269426e-05)
+Total FLOPs for factorization is (by swperf)2.1657971e+14
+******************SUPERLU STATISTICS****************
+Number of tiny pivots: 0
+Number of look aheads: 10
+Number of FLOPS for factorization: 1.67707e+14
+****************************************************
+Time for total factorization is 9.6531718 [s]
+Total FLOPs for selected inversion is (by swperf)2.2086952e+14
+Time for total selected inversion is 12.191656 [s]
+Total FLOPs for selected inversion is 1.6899473e+14
+Total TFLOPS for selected inversion is 13.861507
+Time for PMatrixToDistSparseMatrix is 1.745026 [s]
+Time for UpdateDM is 0.097379009 [s]
+Time for postprocessing is 1.8440552 [s]
+Time for pole 30 is 23.736314 [s]
+
+Pole 40 processing...
+zshift           = (0.33607213,-0.0022135715)
+zweightRho       = (-8.7948563e-05,-8.3532393e-05)
+Total FLOPs for factorization is (by swperf)2.1657971e+14
+******************SUPERLU STATISTICS****************
+Number of tiny pivots: 0
+Number of look aheads: 10
+Number of FLOPS for factorization: 1.67707e+14
+****************************************************
+Time for total factorization is 9.6049731 [s]
+Total FLOPs for selected inversion is (by swperf)2.2086925e+14
+Time for total selected inversion is 12.254179 [s]
+Total FLOPs for selected inversion is 1.6899473e+14
+Total TFLOPS for selected inversion is 13.790783
+Time for PMatrixToDistSparseMatrix is 1.7438832 [s]
+Time for UpdateDM is 0.096226008 [s]
+Time for postprocessing is 1.8417819 [s]
+Time for pole 40 is 23.749538 [s]
+
+Pole 50 processing...
+zshift           = (0.33065793,-0.0075458718)
+zweightRho       = (-0.00030035546,-0.00029904729)
+Total FLOPs for factorization is (by swperf)2.1657971e+14
+******************SUPERLU STATISTICS****************
+Number of tiny pivots: 0
+Number of look aheads: 10
+Number of FLOPS for factorization: 1.67707e+14
+****************************************************
+Time for total factorization is 9.6423778 [s]
+Total FLOPs for selected inversion is (by swperf)2.2086923e+14
+Time for total selected inversion is 12.211243 [s]
+Total FLOPs for selected inversion is 1.6899473e+14
+Total TFLOPS for selected inversion is 13.839273
+Time for PMatrixToDistSparseMatrix is 1.7442107 [s]
+Time for UpdateDM is 0.093065001 [s]
+Time for postprocessing is 1.8389276 [s]
+Time for pole 50 is 23.740686 [s]
+
+Pole 60 processing...
+zshift           = (0.31188275,-0.02629758)
+zweightRho       = (-0.0010467487,-0.001046372)
+Total FLOPs for factorization is (by swperf)2.1657971e+14
+******************SUPERLU STATISTICS****************
+Number of tiny pivots: 0
+Number of look aheads: 10
+Number of FLOPS for factorization: 1.67707e+14
+****************************************************
+Time for total factorization is 9.7519965 [s]
+Total FLOPs for selected inversion is (by swperf)2.2086938e+14
+Time for total selected inversion is 12.31628 [s]
+Total FLOPs for selected inversion is 1.6899473e+14
+Total TFLOPS for selected inversion is 13.721248
+Time for PMatrixToDistSparseMatrix is 1.7451234 [s]
+Time for UpdateDM is 0.09542207 [s]
+Time for postprocessing is 1.8422335 [s]
+Time for pole 60 is 23.957746 [s]
+
+Pole 70 processing...
+zshift           = (0.24635688,-0.091815988)
+zweightRho       = (-0.0036546995,-0.0036545001)
+Total FLOPs for factorization is (by swperf)2.1657971e+14
+******************SUPERLU STATISTICS****************
+Number of tiny pivots: 0
+Number of look aheads: 10
+Number of FLOPS for factorization: 1.67707e+14
+****************************************************
+Time for total factorization is 9.6270993 [s]
+Total FLOPs for selected inversion is (by swperf)2.2086928e+14
+Time for total selected inversion is 12.212499 [s]
+Total FLOPs for selected inversion is 1.6899473e+14
+Total TFLOPS for selected inversion is 13.837849
+Time for PMatrixToDistSparseMatrix is 1.745219 [s]
+Time for UpdateDM is 0.094531776 [s]
+Time for postprocessing is 1.841444 [s]
+Time for pole 70 is 23.729102 [s]
+
+Pole 80 processing...
+zshift           = (0.017535858,-0.32060299)
+zweightRho       = (-0.012763878,-0.012759923)
+Total FLOPs for factorization is (by swperf)2.1657971e+14
+******************SUPERLU STATISTICS****************
+Number of tiny pivots: 0
+Number of look aheads: 10
+Number of FLOPS for factorization: 1.67707e+14
+****************************************************
+Time for total factorization is 9.5647665 [s]
+Total FLOPs for selected inversion is (by swperf)2.2086946e+14
+Time for total selected inversion is 12.233357 [s]
+Total FLOPs for selected inversion is 1.6899473e+14
+Total TFLOPS for selected inversion is 13.814256
+Time for PMatrixToDistSparseMatrix is 1.7480478 [s]
+Time for UpdateDM is 0.095905707 [s]
+Time for postprocessing is 1.8456591 [s]
+Time for pole 80 is 23.693034 [s]
+
+Pole 90 processing...
+zshift           = (-0.78213328,-1.118905)
+zweightRho       = (-0.044648164,-0.044481047)
+Total FLOPs for factorization is (by swperf)2.1657971e+14
+******************SUPERLU STATISTICS****************
+Number of tiny pivots: 0
+Number of look aheads: 10
+Number of FLOPS for factorization: 1.67707e+14
+****************************************************
+Time for total factorization is 9.6054306 [s]
+Total FLOPs for selected inversion is (by swperf)2.2086929e+14
+Time for total selected inversion is 12.210902 [s]
+Total FLOPs for selected inversion is 1.6899473e+14
+Total TFLOPS for selected inversion is 13.839659
+Time for PMatrixToDistSparseMatrix is 1.7454159 [s]
+Time for UpdateDM is 0.095550073 [s]
+Time for postprocessing is 1.8425988 [s]
+Time for pole 90 is 23.706791 [s]
+
+Pole 100 processing...
+zshift           = (-3.6010681,-3.8796522)
+zweightRho       = (-0.1591326,-0.15201778)
+Total FLOPs for factorization is (by swperf)2.1657971e+14
+******************SUPERLU STATISTICS****************
+Number of tiny pivots: 0
+Number of look aheads: 10
+Number of FLOPS for factorization: 1.67707e+14
+****************************************************
+Time for total factorization is 9.6227806 [s]
+Total FLOPs for selected inversion is (by swperf)2.2086937e+14
+Time for total selected inversion is 12.281332 [s]
+Total FLOPs for selected inversion is 1.6899473e+14
+Total TFLOPS for selected inversion is 13.760293
+Time for PMatrixToDistSparseMatrix is 1.7451857 [s]
+Time for UpdateDM is 0.094276304 [s]
+Time for postprocessing is 1.841166 [s]
+Time for pole 100 is 23.792671 [s]
+
+Pole 110 processing...
+zshift           = (-14.455429,-12.277847)
+zweightRho       = (-0.66881356,-0.37183247)
+Total FLOPs for factorization is (by swperf)2.1657971e+14
+******************SUPERLU STATISTICS****************
+Number of tiny pivots: 0
+Number of look aheads: 10
+Number of FLOPS for factorization: 1.67707e+14
+****************************************************
+Time for total factorization is 9.7390614 [s]
+Total FLOPs for selected inversion is (by swperf)2.2086945e+14
+Time for total selected inversion is 12.306538 [s]
+Total FLOPs for selected inversion is 1.6899473e+14
+Total TFLOPS for selected inversion is 13.732109
+Time for PMatrixToDistSparseMatrix is 1.7449873 [s]
+Time for UpdateDM is 0.096613169 [s]
+Time for postprocessing is 1.8431129 [s]
+Time for pole 110 is 23.935656 [s]
+
+
+numElecLocal = 215.62773
+PEXSI Converged 
+converged idx               = 0               
+converged NeVec[mu_idx]     = +5.57042615e+04 
+numElectronTolerance        = +3.67450706e-02 
+Final mu                    = +3.38170942e-01 
+ Free Energy S Tr[S*FDM] -5983.5152
+
+(Point 0) Total number of inertia counts       = 0
+(Point 0) Total time for inertia count step    = 0 [s]
+(Point 0) Total time for PEXSI step            = 286.0864 [s]
+(Point 0) Total time for the DFT driver        = 286.12436 [s]
+
+Final result 
+mu                          = +3.38170942e-01 
+muMin                       = +2.30573736e-01 
+muMax                       = +3.38170942e-01 
+Computed number of electron = +5.57042615e+04 
+Exact number of electron    = +4.60800000e+04 
+Total energy (H*DM)         = -2.72885165e+03 
+Total energy (Tr[EDM])      = -2.72885165e+03 
+Total free energy           = -5.98351524e+03 
+
+

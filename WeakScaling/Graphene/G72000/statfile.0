@@ -1,0 +1,1217 @@
+mpisize = 384000          
+mpirank = 0               
+Time for reading the raw input file is 0.000256555 [s]
+
+Time for reading the input file is 2.58187 [s]
+
+
+*********************************************************************
+Common information
+*********************************************************************
+
+Super cell                           = +1.51178096e+01 +8.05183042e+02 +8.36770763e+02 
+Grid Wavefunction                    = 38              2080            2080            
+Grid Density                         = 38              2080            2080            
+Mixing dimension                     = 5               
+Mixing variable                      = potential       
+Mixing type                          = anderson        
+Mixing Steplength                    = +3.00000000e-02 
+Temperature                          = +1.00000000e+02 [K]   
+Extra states                         = 0               
+Smearing scheme                      = FD              
+PeriodTable File                     =                 
+Pseudo Type                          = ONCV            
+PW Solver                            = LOBPCG          
+XC Type                              = XC_HYB_GGA_XC_HSE06
+SCF Outer Tol                        = +1.00000000e-06 
+SCF Outer MaxIter                    = 3               
+SCF Free Energy Per Atom Tol         = +1.00000000e-04 
+Eig Min Tolerence                    = +1.00000000e-03 
+Eig Tolerence                        = +1.00000000e-20 
+Eig MaxIter                          = 1               
+Eig Tolerance Dyn                    = false   
+Num unused state                     = 0               
+EcutWavefunction                     = +3.00000000e+01 
+Density GridFactor                   = +1.00000000e+00 
+Use Atom Density                     = false   
+Use VLocal                           = false   
+RestartDensity                       = false   
+RestartWfn                           = false   
+OutputDensity                        = false   
+OutputPotential                      = false   
+Number of Extra Electron             = 0               
+
+*********************************************************************
+DGDFT information
+*********************************************************************
+
+Penalty Alpha                        = +2.00000000e+01 
+Element size                         = 1               80              80              
+Wfn Elem GridSize                    = 38              26              26              
+Rho Elem GridSize                    = 38              26              26              
+LGL Grid size                        = 38              26              26              
+LGL GridFactor                       = +1.00000000e+00 
+SVD Basis Tol                        = +1.00000000e-20 
+SCF Inner Tol                        = +1.00000000e-06 
+SCF Inner MaxIter                    = 1               
+Number of procs for DistFFT          = 2080            
+Solution Method   = pexsi           
+Number of poles                    = 120             
+Nproc row PEXSI                    = 40              
+Nproc col PEXSI                    = 40              
+Nproc for symbfact                 = 64              
+Energy gap                         = +0.00000000e+00 
+Spectral radius                    = +1.00000000e+01 
+Matrix ordering                    = 0               
+Inertia before SCF                 = 1               
+MuMin0                             = -1.00000000e+00 
+MuMax0                             = +1.00000000e+00 
+NumElectron tol                    = +1.00000000e-03 
+mu Inertia tol                     = +5.00000000e-02 
+mu Inertia expand                  = +3.00000000e-01 
+Max PEXSI iter (deprecated)        = 1               
+mu PEXSI safeguard (deprecated)    = +5.00000000e-02 
+OutputALBElemLGL                   = false   
+OutputALBElemUniform               = false   
+OutputWfnExtElem                   = false   
+OutputPotExtElem                   = false   
+OutputHMatrix                      = false   
+Force each step (deprecated)       = false   
+A Posteriori error each step       = false   
+
+nprowSca = 640
+npcolSca = 600
+ UPF version: 2
+Time for setting up the periodic table is 0.061941515 [s]
+
+XC_HYB_GGA_XC_HSE06  XCId = 428
+
+Computing the local pseudopotential
+Time for local pseudopotential 0.27561534
+Sum of Pseudocharge                          = -8.87178137e+04 
+Number of Occupied States                    = 196             
+After adjustment, Sum of Pseudocharge        = +3.92000000e+02 
+Computing the non-local pseudopotential
+Total number of nonlocal pseudopotential = 784             
+Time for nonlocal pseudopotential 0.085043607
+computed exxDiv_ = 45.400088
+Hybrid mixing parameter  = 0.25
+Hybrid screening length = 0.106
+Time for setting up the exchange for the extended Hamiltonian  part = 0.11340472 [s]
+Time for setting up extended element is 0.11409149 [s]
+
+localNz        = 1
+localNzStart   = 0
+numAllocLocal  = 79040
+numGridLocal   = 79040
+numGridTotal   = 164403200
+Time for setting up Distributed Fourier is 18.836697 [s]
+
+XC_HYB_GGA_XC_HSE06  XCId = 428
+
+ DG Hamiltonian Setup finished 
+Number of Occupied States                    = 144000          
+
+Prepare the integration weights for constructing the DG matrix.
+
+Atomic pseudocharge computed.
+Sum of Pseudocharge                          = -6.51808453e+07 
+numOccupiedState                             = 144000          
+After adjustment, sum of Pseudocharge        = +2.88000000e+05 
+computed exxDiv_ = 45.400088
+Hybrid mixing parameter  = 0.25
+Hybrid screening length = 0.106
+Time for setting up the DG Hamiltonian is 8.7362014 [s]
+
+mpirank = 0
+mpisize = 384000
+mpirankRow = 0
+mpirankCol = 0
+mpisizeRow = 60
+mpisizeCol = 6400
+outputFileIndex = 0
+mpirankPEXSI = 0
+numProcPEXSICommRow_ = 240
+numProcPEXSICommCol_ = 1600
+isProcPEXSI = 1
+mpisizePEXSI = 384000
+
+ Generating initial density through linear combination of pseudocharges.
+Initial density. Sum of density      = +2.88002339e+05 
+Initial random basis functions in the extended element.
+Initial basis functions with random guess.
+Time for setting up SCFDG is 20.91342 [s]
+
+XC_GGA_XC_PBE  XId_ CId_ = 101 130
+
+ Time for calculating gradient of density is 8.448366 [s]
+
+Time for calling the XC kernel is 0.065637294 [s]
+
+ Time for calculating XC is 11.190521 [s]
+
+ Time for calculating Hartree is 3.7788014 [s]
+
+ Time for calculating Vtot is 0.00031012524 [s]
+
+
+*********************************************************************
+ Outer SCF iteration # 1
+*********************************************************************
+
+#######################
+ Time for updating the local potential in the extended element and the element is 1.7401324 [s]
+
+ The current tolerance used by the eigensolver is 1e-20
+ The target number of converged eigenvectors is 120
+
+Print time for Hpsi in spinor module 
+Time for blas::Copy       = 8  timeCopy         = 0.0090988014
+Time for iterFFTCoarse    = 4  timeFFTCoarse    = 0.025745571
+Time for iterFFTFine      = 4  timeFFTFine      = 0.025947657
+Time for Interpolation    = 4  timeC2F          = 0.00069216381
+Time for Local            = 2  timeLocal        = 0.00045181952
+Time for Nonlocal         = 2  timeNonlocal     = 0.0032639748
+Time for Laplace          = 2  timeLaplace      = 0.00032471476
+Time for psi.AddMultSpinorFineR2C is 0.081615989 [s]
+
+Minimum tolerance is 0.001
+Print time for Precondition
+Time for Copy             = 4  timeCopy         = 0.0060316581
+Time for iterFFTCoarse    = 4  timeFFTCoarse    = 0.025849638
+Time for Teter            = 2  timeTeter        = 0.00032602238
+Print time for Hpsi in spinor module 
+Time for blas::Copy       = 8  timeCopy         = 0.0089341586
+Time for iterFFTCoarse    = 4  timeFFTCoarse    = 0.025816732
+Time for iterFFTFine      = 4  timeFFTFine      = 0.026020568
+Time for Interpolation    = 4  timeC2F          = 0.00068959476
+Time for Local            = 2  timeLocal        = 0.00045587095
+Time for Nonlocal         = 2  timeNonlocal     = 0.003263341
+Time for Laplace          = 2  timeLaplace      = 0.00035800905
+Time for psi.AddMultSpinorFineR2C is 0.081726859 [s]
+
+Print time for Precondition
+Time for Copy             = 4  timeCopy         = 0.0060290529
+Time for iterFFTCoarse    = 4  timeFFTCoarse    = 0.025777589
+Time for Teter            = 2  timeTeter        = 0.00032426286
+Print time for Hpsi in spinor module 
+Time for blas::Copy       = 8  timeCopy         = 0.008958879
+Time for iterFFTCoarse    = 4  timeFFTCoarse    = 0.025697046
+Time for iterFFTFine      = 4  timeFFTFine      = 0.025937842
+Time for Interpolation    = 4  timeC2F          = 0.00068626381
+Time for Local            = 2  timeLocal        = 0.00045397333
+Time for Nonlocal         = 2  timeNonlocal     = 0.0032657952
+Time for Laplace          = 2  timeLaplace      = 0.00032622714
+Time for psi.AddMultSpinorFineR2C is 0.081394948 [s]
+
+
+After 2 iterations, LOBPCG did not converge. 
+The maximum norm of the residual is 2.8059335
+
+The minimum norm of the residual is 0.70987752
+
+Time for iterGemmT     = 19  timeGemmT     = 0.07973046
+Time for iterGemmN     = 13  timeGemmN     = 0.015257377
+Time for iterAllreduce = 19  timeAllreduce = 0.01270626
+Time for iterAlltoallv = 10  timeAlltoallv = 0.10408416
+Time for iterSpinor    = 5  timeSpinor    = 0.3215514
+Time for iterTrsm      = 1  timeTrsm      = 0.0024891886
+Time for iterMpirank0  = 16  timeMpirank0  = 0.23500549
+
+ Eigensolver time = 1.6061098 [s]
+
+ALB calculation in extended element 0 0 0 
+basis#   = 0    eigval   = -2.78344812e-01 resval   = +7.09877517e-01 
+basis#   = 1    eigval   = +4.79488212e-01 resval   = +2.15167382e+00 
+basis#   = 2    eigval   = +4.88913888e-01 resval   = +2.17180974e+00 
+basis#   = 3    eigval   = +5.15351620e-01 resval   = +2.20696194e+00 
+basis#   = 4    eigval   = +5.29425242e-01 resval   = +2.22196779e+00 
+basis#   = 5    eigval   = +5.45431281e-01 resval   = +2.19176829e+00 
+basis#   = 6    eigval   = +5.58822499e-01 resval   = +2.18613289e+00 
+basis#   = 7    eigval   = +5.69710469e-01 resval   = +2.23245858e+00 
+basis#   = 8    eigval   = +5.74429876e-01 resval   = +2.25814248e+00 
+basis#   = 9    eigval   = +5.89347636e-01 resval   = +2.26462830e+00 
+basis#   = 10   eigval   = +6.01224156e-01 resval   = +2.27887731e+00 
+basis#   = 11   eigval   = +6.04471207e-01 resval   = +2.30212614e+00 
+basis#   = 12   eigval   = +6.09748028e-01 resval   = +2.30791906e+00 
+basis#   = 13   eigval   = +6.21313097e-01 resval   = +2.32344080e+00 
+basis#   = 14   eigval   = +6.27951902e-01 resval   = +2.34857077e+00 
+basis#   = 15   eigval   = +6.32413193e-01 resval   = +2.35673403e+00 
+basis#   = 16   eigval   = +6.48297124e-01 resval   = +2.36218476e+00 
+basis#   = 17   eigval   = +6.58459689e-01 resval   = +2.38521659e+00 
+basis#   = 18   eigval   = +6.64362258e-01 resval   = +2.36769950e+00 
+basis#   = 19   eigval   = +6.75539161e-01 resval   = +2.36670637e+00 
+basis#   = 20   eigval   = +6.83877312e-01 resval   = +2.37580365e+00 
+basis#   = 21   eigval   = +6.88081264e-01 resval   = +2.39223473e+00 
+basis#   = 22   eigval   = +6.91713105e-01 resval   = +2.39867298e+00 
+basis#   = 23   eigval   = +6.99930391e-01 resval   = +2.35995823e+00 
+basis#   = 24   eigval   = +7.13962488e-01 resval   = +2.43171212e+00 
+basis#   = 25   eigval   = +7.17109930e-01 resval   = +2.42703526e+00 
+basis#   = 26   eigval   = +7.26111603e-01 resval   = +2.47689662e+00 
+basis#   = 27   eigval   = +7.40844087e-01 resval   = +2.45071073e+00 
+basis#   = 28   eigval   = +7.46160740e-01 resval   = +2.44362706e+00 
+basis#   = 29   eigval   = +7.50121606e-01 resval   = +2.46317511e+00 
+basis#   = 30   eigval   = +7.62346727e-01 resval   = +2.44945723e+00 
+basis#   = 31   eigval   = +7.66809124e-01 resval   = +2.50218582e+00 
+basis#   = 32   eigval   = +7.78517670e-01 resval   = +2.46128865e+00 
+basis#   = 33   eigval   = +7.83177442e-01 resval   = +2.50716440e+00 
+basis#   = 34   eigval   = +7.89565350e-01 resval   = +2.46922180e+00 
+basis#   = 35   eigval   = +7.93423088e-01 resval   = +2.54656142e+00 
+basis#   = 36   eigval   = +7.97857782e-01 resval   = +2.54343917e+00 
+basis#   = 37   eigval   = +8.10642956e-01 resval   = +2.51485400e+00 
+basis#   = 38   eigval   = +8.19424605e-01 resval   = +2.55526271e+00 
+basis#   = 39   eigval   = +8.27449984e-01 resval   = +2.57576975e+00 
+basis#   = 40   eigval   = +8.38504642e-01 resval   = +2.61638223e+00 
+basis#   = 41   eigval   = +8.46179883e-01 resval   = +2.59124605e+00 
+basis#   = 42   eigval   = +8.48330038e-01 resval   = +2.58091671e+00 
+basis#   = 43   eigval   = +8.54096620e-01 resval   = +2.60662609e+00 
+basis#   = 44   eigval   = +8.74050813e-01 resval   = +2.62847334e+00 
+basis#   = 45   eigval   = +8.79544346e-01 resval   = +2.61435785e+00 
+basis#   = 46   eigval   = +8.96524943e-01 resval   = +2.68570598e+00 
+basis#   = 47   eigval   = +9.01579967e-01 resval   = +2.65664782e+00 
+basis#   = 48   eigval   = +9.06245131e-01 resval   = +2.65398102e+00 
+basis#   = 49   eigval   = +9.14916561e-01 resval   = +2.65879952e+00 
+basis#   = 50   eigval   = +9.19094441e-01 resval   = +2.67806797e+00 
+basis#   = 51   eigval   = +9.27291950e-01 resval   = +2.69215141e+00 
+basis#   = 52   eigval   = +9.34884760e-01 resval   = +2.70618897e+00 
+basis#   = 53   eigval   = +9.36754559e-01 resval   = +2.72419889e+00 
+basis#   = 54   eigval   = +9.48293600e-01 resval   = +2.71828890e+00 
+basis#   = 55   eigval   = +9.58315742e-01 resval   = +2.72730585e+00 
+basis#   = 56   eigval   = +9.71378100e-01 resval   = +2.72929683e+00 
+basis#   = 57   eigval   = +9.81685410e-01 resval   = +2.71523458e+00 
+basis#   = 58   eigval   = +9.84628943e-01 resval   = +2.75402339e+00 
+basis#   = 59   eigval   = +9.99031797e-01 resval   = +2.74062592e+00 
+basis#   = 60   eigval   = +1.00470885e+00 resval   = +2.80593349e+00 
+basis#   = 61   eigval   = +1.01468731e+00 resval   = +2.74569071e+00 
+basis#   = 62   eigval   = +1.02076309e+00 resval   = +2.76318819e+00 
+basis#   = 63   eigval   = +1.03555737e+00 resval   = +2.75038983e+00 
+basis#   = 64   eigval   = +1.04151181e+00 resval   = +2.72269427e+00 
+basis#   = 65   eigval   = +1.04999447e+00 resval   = +2.71004880e+00 
+basis#   = 66   eigval   = +1.05901697e+00 resval   = +2.66798088e+00 
+basis#   = 67   eigval   = +1.06891459e+00 resval   = +2.70475174e+00 
+basis#   = 68   eigval   = +1.07033322e+00 resval   = +2.69968756e+00 
+basis#   = 69   eigval   = +1.07753191e+00 resval   = +2.66701491e+00 
+basis#   = 70   eigval   = +1.08407870e+00 resval   = +2.63579858e+00 
+basis#   = 71   eigval   = +1.09398678e+00 resval   = +2.64774887e+00 
+basis#   = 72   eigval   = +1.10279021e+00 resval   = +2.65429166e+00 
+basis#   = 73   eigval   = +1.10709070e+00 resval   = +2.60974632e+00 
+basis#   = 74   eigval   = +1.12814225e+00 resval   = +2.62400140e+00 
+basis#   = 75   eigval   = +1.13433987e+00 resval   = +2.59838002e+00 
+basis#   = 76   eigval   = +1.13870009e+00 resval   = +2.58880443e+00 
+basis#   = 77   eigval   = +1.15019822e+00 resval   = +2.58354794e+00 
+basis#   = 78   eigval   = +1.15499914e+00 resval   = +2.60577325e+00 
+basis#   = 79   eigval   = +1.16228507e+00 resval   = +2.57977619e+00 
+basis#   = 80   eigval   = +1.17609012e+00 resval   = +2.54695364e+00 
+basis#   = 81   eigval   = +1.18897896e+00 resval   = +2.51654490e+00 
+basis#   = 82   eigval   = +1.19468663e+00 resval   = +2.52710555e+00 
+basis#   = 83   eigval   = +1.20907232e+00 resval   = +2.51709031e+00 
+basis#   = 84   eigval   = +1.21138763e+00 resval   = +2.52353687e+00 
+basis#   = 85   eigval   = +1.22098984e+00 resval   = +2.53234327e+00 
+basis#   = 86   eigval   = +1.22740076e+00 resval   = +2.52080362e+00 
+basis#   = 87   eigval   = +1.23564559e+00 resval   = +2.47396924e+00 
+basis#   = 88   eigval   = +1.24538176e+00 resval   = +2.46147829e+00 
+basis#   = 89   eigval   = +1.26987590e+00 resval   = +2.44935204e+00 
+basis#   = 90   eigval   = +1.27577866e+00 resval   = +2.41749718e+00 
+basis#   = 91   eigval   = +1.29172095e+00 resval   = +2.45153751e+00 
+basis#   = 92   eigval   = +1.29598740e+00 resval   = +2.41866022e+00 
+basis#   = 93   eigval   = +1.29881345e+00 resval   = +2.40137168e+00 
+basis#   = 94   eigval   = +1.31217452e+00 resval   = +2.38493408e+00 
+basis#   = 95   eigval   = +1.32107529e+00 resval   = +2.38339377e+00 
+basis#   = 96   eigval   = +1.33272748e+00 resval   = +2.36849857e+00 
+basis#   = 97   eigval   = +1.34852811e+00 resval   = +2.35794405e+00 
+basis#   = 98   eigval   = +1.36923052e+00 resval   = +2.35943597e+00 
+basis#   = 99   eigval   = +1.37230572e+00 resval   = +2.33306240e+00 
+basis#   = 100  eigval   = +1.38494190e+00 resval   = +2.32247449e+00 
+basis#   = 101  eigval   = +1.39847342e+00 resval   = +2.30433782e+00 
+basis#   = 102  eigval   = +1.40555341e+00 resval   = +2.32441055e+00 
+basis#   = 103  eigval   = +1.41905798e+00 resval   = +2.29860035e+00 
+basis#   = 104  eigval   = +1.43055332e+00 resval   = +2.28606926e+00 
+basis#   = 105  eigval   = +1.43425180e+00 resval   = +2.32808614e+00 
+basis#   = 106  eigval   = +1.45411608e+00 resval   = +2.29694013e+00 
+basis#   = 107  eigval   = +1.47360237e+00 resval   = +2.25294371e+00 
+basis#   = 108  eigval   = +1.48295200e+00 resval   = +2.26944785e+00 
+basis#   = 109  eigval   = +1.49533184e+00 resval   = +2.24626202e+00 
+basis#   = 110  eigval   = +1.49838047e+00 resval   = +2.23287666e+00 
+basis#   = 111  eigval   = +1.51129437e+00 resval   = +2.19925710e+00 
+basis#   = 112  eigval   = +1.52572211e+00 resval   = +2.22463894e+00 
+basis#   = 113  eigval   = +1.54657079e+00 resval   = +2.20365794e+00 
+basis#   = 114  eigval   = +1.58351476e+00 resval   = +2.18170747e+00 
+basis#   = 115  eigval   = +1.60678003e+00 resval   = +2.18074996e+00 
+basis#   = 116  eigval   = +1.62635920e+00 resval   = +2.17843221e+00 
+basis#   = 117  eigval   = +1.65526633e+00 resval   = +2.14551080e+00 
+basis#   = 118  eigval   = +1.66282992e+00 resval   = +2.15912425e+00 
+basis#   = 119  eigval   = +1.73635046e+00 resval   = +2.08931010e+00 
+
+ Max residual of basis = +2.80593349e+00 
+ Avg residual of basis = +2.44878373e+00 
+
+ Time for interpolating basis = 0.0047595938 [s]
+ Number of significant SVD basis = 120
+ Time for SVD of basis = 0.062838457 [s]
+
+ Time for generating ALB function is 1.7450447 [s]
+
+
+ Inner SCF iteration #1 starts.
+
+ Time for constructing the DG matrix is 17.874303 [s]
+
+ Time for constructing the DG (DFT + HFX) matrix is 17.875789 [s]
+
+Time for compressing the information in DistElemMat is 0.01426893 [s]
+
+Time for communication of the information of DistElemMat is 3.7414363 [s]
+
+Time for writing the matrix to distSparseMat is 0.017512935 [s]
+
+ Time for converting the DG matrix to DistSparseMatrix format is 3.7936564 [s]
+
+H.size = 768000
+H.nnz  = 1644480000
+H.nnzLocal  = 979200
+H.colptrLocal.m() = 481
+H.rowindLocal.m() = 979200
+H.nzvalLocal.m() = 979200
+numProcPEXSICommRow_ = 0
+numProcPEXSICommCol_ = 1600
+mpirankRow = 0
+mpirankCol = 0
+ Time for loading the matrix into PEXSI is 0.051009338 [s]
+
+
+muInertiaTolerance        = 0.01
+numElectronPEXSITolerance = 0.5
+Symbolic factorization    =  1
+ Time for the main PEXSI Driver is 312.58144 [s]
+
+Before retrieve
+ Time for retrieving PEXSI data is 0.037286669 [s]
+
+NOTE: Free energy = Energy in PPEXSIDFTDriver3!
+
+Results obtained from PEXSI:
+Total energy (H*DM)         = 11819.399
+Total energy (S*EDM)        = 6.4099756e-06
+Total free energy           = 19630.448
+InertiaIter                 = 0
+mu                          = 0.33333333
+numElectron                 = -7.3831304e-08
+
+Time for converting the matrix locally is 0.1127419 [s]
+
+Time for actual communication is 1.6164957 [s]
+
+Time for converting the matrix locally is 0.11045701 [s]
+
+Time for actual communication is 1.5911619 [s]
+
+Time for converting the matrix locally is 0.11082304 [s]
+
+Time for actual communication is 1.6033315 [s]
+
+ Time for converting the DistSparseMatrices to DistElemMat for post-processing is 5.1528738 [s]
+
+ Time for broadcasting the density matrix for post-processing is 1.9380968e-07 [s]
+
+ Time for calculating the Harris energy is 0.011876511 [s]
+
+
+ Before interpolation
+ After interpolation
+
+ Sum Rho on LGL grid (raw data) = +2.78871705e+05 
+ Sum Rho on uniform grid (interpolated) = +2.64726945e+05 
+
+ Time for computing density in the global domain is 0.044788 [s]
+
+ Time for calculating gradient of density is 7.4001131 [s]
+
+Time for calling the XC kernel is 0.065397965 [s]
+
+ Time for computing the potential is 22.911757 [s]
+
+ Time for PEXSI evaluation is 344.63196 [s]
+
+ Time for computing the SCF residual is 0.001091419 [s]
+
+ Time for mixing is 0.0025044776 [s]
+
+
+Eigenvalues in the global domain.
+
+EfreeHarris       = -2.46631317e+04 [au]  
+Etot              = +1.45704421e+05 [au]  
+Efree             = +1.45704421e+05 [au]  
+Ekin              = +1.18193990e+04 [au]  
+Ehart             = -1.81901791e+05 [au]  
+EVxc              = -1.03434417e+05 [au]  
+Exc               = -7.94511863e+04 [au]  
+Evdw              = +0.00000000e+00 [au]  
+Eself             = +7.20000000e+04 [au]  
+Ecor              = +1.33885022e+05 [au]  
+Fermi             = +3.33333333e-01 [au]  
+ Time for this inner SCF iteration = 362.56506 [s]
+
+ Time for all inner SCF iterations is 362.56631 [s]
+
+OUTERSCF: EfreeHarris                 = -2.46631317e+04 
+OUTERSCF: Efree                       = +1.45704421e+05 
+OUTERSCF: norm(out-in)/norm(in) = +1.18244510e-01 
+OUTERSCF: Efree diff per atom   = +2.36621600e+00 
+
+ Time for this SCF iteration = 366.05987 [s]
+
+*********************************************************************
+ Outer SCF iteration # 2
+*********************************************************************
+
+#######################
+ Time for updating the local potential in the extended element and the element is 1.6371408 [s]
+
+ The current tolerance used by the eigensolver is 1e-20
+ The target number of converged eigenvectors is 120
+
+ iter 2 ; isHybrid_ 1
+ ham.isEXXActive_  1
+Time for updating Phi related variable is 4.5387642 [s]
+
+Print time for Hpsi in spinor module 
+Time for blas::Copy       = 8  timeCopy         = 0.0089123048
+Time for iterFFTCoarse    = 4  timeFFTCoarse    = 0.025751244
+Time for iterFFTFine      = 4  timeFFTFine      = 0.026013648
+Time for Interpolation    = 4  timeC2F          = 0.00068819571
+Time for Local            = 2  timeLocal        = 0.00045082667
+Time for Nonlocal         = 2  timeNonlocal     = 0.003284401
+Time for Laplace          = 2  timeLaplace      = 0.00032799381
+Time for psi.AddMultSpinorFineR2C is 0.08157592 [s]
+
+Time for updating hybrid Spinor is 0.28006365 [s]
+
+Time for Gemm is 0.0069278548 [s]
+
+Time for Alltoallv is 0.26462256 [s]
+
+Time for Allreduce is 0.0010881148 [s]
+
+Minimum tolerance is 0.001
+Print time for Precondition
+Time for Copy             = 4  timeCopy         = 0.0060932943
+Time for iterFFTCoarse    = 4  timeFFTCoarse    = 0.02573266
+Time for Teter            = 2  timeTeter        = 0.00032172333
+Print time for Hpsi in spinor module 
+Time for blas::Copy       = 8  timeCopy         = 0.0088588357
+Time for iterFFTCoarse    = 4  timeFFTCoarse    = 0.02572078
+Time for iterFFTFine      = 4  timeFFTFine      = 0.025943696
+Time for Interpolation    = 4  timeC2F          = 0.00068724429
+Time for Local            = 2  timeLocal        = 0.00045927476
+Time for Nonlocal         = 2  timeNonlocal     = 0.0032614705
+Time for Laplace          = 2  timeLaplace      = 0.00032409952
+Time for psi.AddMultSpinorFineR2C is 0.080963339 [s]
+
+Time for updating hybrid Spinor is 0.27767848 [s]
+
+Time for Gemm is 0.0069601505 [s]
+
+Time for Alltoallv is 0.26260996 [s]
+
+Time for Allreduce is 0.00058163286 [s]
+
+Print time for Precondition
+Time for Copy             = 4  timeCopy         = 0.0060496933
+Time for iterFFTCoarse    = 4  timeFFTCoarse    = 0.025795322
+Time for Teter            = 2  timeTeter        = 0.00032246238
+Print time for Hpsi in spinor module 
+Time for blas::Copy       = 8  timeCopy         = 0.008830679
+Time for iterFFTCoarse    = 4  timeFFTCoarse    = 0.025734909
+Time for iterFFTFine      = 4  timeFFTFine      = 0.025944673
+Time for Interpolation    = 4  timeC2F          = 0.0006883981
+Time for Local            = 2  timeLocal        = 0.00045547714
+Time for Nonlocal         = 2  timeNonlocal     = 0.0032597367
+Time for Laplace          = 2  timeLaplace      = 0.00032481095
+Time for psi.AddMultSpinorFineR2C is 0.080961085 [s]
+
+Time for updating hybrid Spinor is 0.27573018 [s]
+
+Time for Gemm is 0.0069581652 [s]
+
+Time for Alltoallv is 0.26070229 [s]
+
+Time for Allreduce is 0.00053143191 [s]
+
+
+After 2 iterations, LOBPCG did not converge. 
+The maximum norm of the residual is 0.47921897
+
+The minimum norm of the residual is 0.10635401
+
+Time for iterGemmT     = 19  timeGemmT     = 0.079713639
+Time for iterGemmN     = 13  timeGemmN     = 0.015189067
+Time for iterAllreduce = 19  timeAllreduce = 0.012993231
+Time for iterAlltoallv = 10  timeAlltoallv = 0.1036312
+Time for iterSpinor    = 5  timeSpinor    = 1.1659007
+Time for iterTrsm      = 1  timeTrsm      = 0.0024641386
+Time for iterMpirank0  = 16  timeMpirank0  = 0.23049048
+
+ Eigensolver time = 1.7375063 [s]
+
+ALB calculation in extended element 0 0 0 
+basis#   = 0    eigval   = -4.59118912e-01 resval   = +1.06354007e-01 
+basis#   = 1    eigval   = -4.15376363e-01 resval   = +2.32286714e-01 
+basis#   = 2    eigval   = -4.08569574e-01 resval   = +2.56198421e-01 
+basis#   = 3    eigval   = -4.01108046e-01 resval   = +2.73874342e-01 
+basis#   = 4    eigval   = -3.92248119e-01 resval   = +2.53470405e-01 
+basis#   = 5    eigval   = -3.83898660e-01 resval   = +2.66016186e-01 
+basis#   = 6    eigval   = -3.75452553e-01 resval   = +3.21536882e-01 
+basis#   = 7    eigval   = -3.62697280e-01 resval   = +2.50478203e-01 
+basis#   = 8    eigval   = -3.58446427e-01 resval   = +2.90650335e-01 
+basis#   = 9    eigval   = -3.41376468e-01 resval   = +2.67179647e-01 
+basis#   = 10   eigval   = -3.39115937e-01 resval   = +2.52081683e-01 
+basis#   = 11   eigval   = -3.33850660e-01 resval   = +2.74613981e-01 
+basis#   = 12   eigval   = -3.31208829e-01 resval   = +2.44208531e-01 
+basis#   = 13   eigval   = -3.23195501e-01 resval   = +2.69437734e-01 
+basis#   = 14   eigval   = -3.20689346e-01 resval   = +2.84441060e-01 
+basis#   = 15   eigval   = -3.18437489e-01 resval   = +2.88518192e-01 
+basis#   = 16   eigval   = -3.15488968e-01 resval   = +2.78336038e-01 
+basis#   = 17   eigval   = -3.09665516e-01 resval   = +3.08539238e-01 
+basis#   = 18   eigval   = -3.08021260e-01 resval   = +2.65771661e-01 
+basis#   = 19   eigval   = -3.02516041e-01 resval   = +3.02923884e-01 
+basis#   = 20   eigval   = -2.99841985e-01 resval   = +2.79048355e-01 
+basis#   = 21   eigval   = -2.98839297e-01 resval   = +2.67853559e-01 
+basis#   = 22   eigval   = -2.97295094e-01 resval   = +2.87481917e-01 
+basis#   = 23   eigval   = -2.94708713e-01 resval   = +2.91540421e-01 
+basis#   = 24   eigval   = -2.89480030e-01 resval   = +3.00351615e-01 
+basis#   = 25   eigval   = -2.81757993e-01 resval   = +3.23001509e-01 
+basis#   = 26   eigval   = -2.78692851e-01 resval   = +3.04548527e-01 
+basis#   = 27   eigval   = -2.72291942e-01 resval   = +3.01068033e-01 
+basis#   = 28   eigval   = -2.64740094e-01 resval   = +3.22769973e-01 
+basis#   = 29   eigval   = -2.56856612e-01 resval   = +2.90778495e-01 
+basis#   = 30   eigval   = -2.52550123e-01 resval   = +2.56127595e-01 
+basis#   = 31   eigval   = -2.48985978e-01 resval   = +2.79739941e-01 
+basis#   = 32   eigval   = -2.43426948e-01 resval   = +2.60615803e-01 
+basis#   = 33   eigval   = -2.39099529e-01 resval   = +2.73425639e-01 
+basis#   = 34   eigval   = -2.36551094e-01 resval   = +2.84384546e-01 
+basis#   = 35   eigval   = -2.29343009e-01 resval   = +2.76582085e-01 
+basis#   = 36   eigval   = -2.26976887e-01 resval   = +2.69031986e-01 
+basis#   = 37   eigval   = -2.23526875e-01 resval   = +2.57663886e-01 
+basis#   = 38   eigval   = -2.22188400e-01 resval   = +2.91223983e-01 
+basis#   = 39   eigval   = -2.20223918e-01 resval   = +2.94025010e-01 
+basis#   = 40   eigval   = -2.13081389e-01 resval   = +3.09274392e-01 
+basis#   = 41   eigval   = -2.12663979e-01 resval   = +3.03254188e-01 
+basis#   = 42   eigval   = -2.08252893e-01 resval   = +3.25165442e-01 
+basis#   = 43   eigval   = -2.03132151e-01 resval   = +3.29820064e-01 
+basis#   = 44   eigval   = -2.02784966e-01 resval   = +3.21689932e-01 
+basis#   = 45   eigval   = -1.96550372e-01 resval   = +3.45485723e-01 
+basis#   = 46   eigval   = -1.92542959e-01 resval   = +3.24286252e-01 
+basis#   = 47   eigval   = -1.89562695e-01 resval   = +3.08304109e-01 
+basis#   = 48   eigval   = -1.87112071e-01 resval   = +3.34620705e-01 
+basis#   = 49   eigval   = -1.83338398e-01 resval   = +3.30085526e-01 
+basis#   = 50   eigval   = -1.79085664e-01 resval   = +3.25991302e-01 
+basis#   = 51   eigval   = -1.77107050e-01 resval   = +3.31556562e-01 
+basis#   = 52   eigval   = -1.73332006e-01 resval   = +3.48370440e-01 
+basis#   = 53   eigval   = -1.67516752e-01 resval   = +3.37040897e-01 
+basis#   = 54   eigval   = -1.55389448e-01 resval   = +2.95364800e-01 
+basis#   = 55   eigval   = -1.53729911e-01 resval   = +3.26442240e-01 
+basis#   = 56   eigval   = -1.50899690e-01 resval   = +3.39435057e-01 
+basis#   = 57   eigval   = -1.47123849e-01 resval   = +3.72512078e-01 
+basis#   = 58   eigval   = -1.41502906e-01 resval   = +3.49864316e-01 
+basis#   = 59   eigval   = -1.33800748e-01 resval   = +2.98756221e-01 
+basis#   = 60   eigval   = -1.32630104e-01 resval   = +3.40961360e-01 
+basis#   = 61   eigval   = -1.29268039e-01 resval   = +3.66637633e-01 
+basis#   = 62   eigval   = -1.25187283e-01 resval   = +3.59450620e-01 
+basis#   = 63   eigval   = -1.22766908e-01 resval   = +3.24559344e-01 
+basis#   = 64   eigval   = -1.19520464e-01 resval   = +3.15059957e-01 
+basis#   = 65   eigval   = -1.16146125e-01 resval   = +3.46008998e-01 
+basis#   = 66   eigval   = -1.12700041e-01 resval   = +3.11790577e-01 
+basis#   = 67   eigval   = -1.08948721e-01 resval   = +3.27969778e-01 
+basis#   = 68   eigval   = -1.04079727e-01 resval   = +3.30084104e-01 
+basis#   = 69   eigval   = -1.01946850e-01 resval   = +3.64563490e-01 
+basis#   = 70   eigval   = -9.88488624e-02 resval   = +3.33784598e-01 
+basis#   = 71   eigval   = -9.51784961e-02 resval   = +3.31669946e-01 
+basis#   = 72   eigval   = -8.76961705e-02 resval   = +3.31110996e-01 
+basis#   = 73   eigval   = -8.36457805e-02 resval   = +3.52201271e-01 
+basis#   = 74   eigval   = -8.08400655e-02 resval   = +3.55360513e-01 
+basis#   = 75   eigval   = -7.69959959e-02 resval   = +3.83802572e-01 
+basis#   = 76   eigval   = -7.50008256e-02 resval   = +3.41133812e-01 
+basis#   = 77   eigval   = -7.17949084e-02 resval   = +3.82928486e-01 
+basis#   = 78   eigval   = -6.99596551e-02 resval   = +3.83464126e-01 
+basis#   = 79   eigval   = -6.17737811e-02 resval   = +3.49998397e-01 
+basis#   = 80   eigval   = -5.92098324e-02 resval   = +3.95796871e-01 
+basis#   = 81   eigval   = -5.38438772e-02 resval   = +3.74015871e-01 
+basis#   = 82   eigval   = -4.99192001e-02 resval   = +3.76758260e-01 
+basis#   = 83   eigval   = -4.86306306e-02 resval   = +3.94703056e-01 
+basis#   = 84   eigval   = -4.43283667e-02 resval   = +3.63765443e-01 
+basis#   = 85   eigval   = -4.21341141e-02 resval   = +3.75006210e-01 
+basis#   = 86   eigval   = -3.85951060e-02 resval   = +3.87517935e-01 
+basis#   = 87   eigval   = -3.65093557e-02 resval   = +3.94149805e-01 
+basis#   = 88   eigval   = -3.14222730e-02 resval   = +3.66937929e-01 
+basis#   = 89   eigval   = -2.65440507e-02 resval   = +3.56128870e-01 
+basis#   = 90   eigval   = -2.21330646e-02 resval   = +3.69413617e-01 
+basis#   = 91   eigval   = -1.85050198e-02 resval   = +3.95089275e-01 
+basis#   = 92   eigval   = -1.36406475e-02 resval   = +4.18843243e-01 
+basis#   = 93   eigval   = -6.69097476e-03 resval   = +3.89111923e-01 
+basis#   = 94   eigval   = -3.29241979e-03 resval   = +4.07257021e-01 
+basis#   = 95   eigval   = -7.12311923e-04 resval   = +3.92651680e-01 
+basis#   = 96   eigval   = +8.31672132e-03 resval   = +3.94220080e-01 
+basis#   = 97   eigval   = +1.18359556e-02 resval   = +3.88773387e-01 
+basis#   = 98   eigval   = +1.29042263e-02 resval   = +3.86378450e-01 
+basis#   = 99   eigval   = +1.69446573e-02 resval   = +4.15702618e-01 
+basis#   = 100  eigval   = +1.91634109e-02 resval   = +4.15560211e-01 
+basis#   = 101  eigval   = +2.30546164e-02 resval   = +3.90428789e-01 
+basis#   = 102  eigval   = +2.78640585e-02 resval   = +4.23720812e-01 
+basis#   = 103  eigval   = +3.26266210e-02 resval   = +4.17716713e-01 
+basis#   = 104  eigval   = +3.35940263e-02 resval   = +4.11604457e-01 
+basis#   = 105  eigval   = +4.21921670e-02 resval   = +4.18361692e-01 
+basis#   = 106  eigval   = +4.62861099e-02 resval   = +4.18164552e-01 
+basis#   = 107  eigval   = +4.82501779e-02 resval   = +4.28144850e-01 
+basis#   = 108  eigval   = +5.01118025e-02 resval   = +4.07225749e-01 
+basis#   = 109  eigval   = +5.70152069e-02 resval   = +4.55401869e-01 
+basis#   = 110  eigval   = +5.80812500e-02 resval   = +4.11197555e-01 
+basis#   = 111  eigval   = +6.34829705e-02 resval   = +4.35591086e-01 
+basis#   = 112  eigval   = +6.98275667e-02 resval   = +4.38809732e-01 
+basis#   = 113  eigval   = +7.84108536e-02 resval   = +4.79218967e-01 
+basis#   = 114  eigval   = +8.43030464e-02 resval   = +4.52179040e-01 
+basis#   = 115  eigval   = +9.04154972e-02 resval   = +4.23496346e-01 
+basis#   = 116  eigval   = +9.38021117e-02 resval   = +4.72096102e-01 
+basis#   = 117  eigval   = +9.55348753e-02 resval   = +4.53471753e-01 
+basis#   = 118  eigval   = +1.07657624e-01 resval   = +4.57150047e-01 
+basis#   = 119  eigval   = +1.13328088e-01 resval   = +4.54351090e-01 
+
+ Max residual of basis = +4.79218967e-01 
+ Avg residual of basis = +3.40784615e-01 
+
+ Time for interpolating basis = 0.0047584581 [s]
+NOTE: The number of basis functions (after SVD) is the same as the number in the first SCF iteration.
+This facilitates the reuse of symbolic factorization in PEXSI.
+ Number of significant SVD basis = 120
+ Time for SVD of basis = 0.059587158 [s]
+
+ Time for generating ALB function is 6.4111809 [s]
+
+
+ Inner SCF iteration #1 starts.
+
+ Time for constructing the DG matrix is 18.435611 [s]
+
+ Start HFX calculations 
+Time for LGL2Unifom ALBs = 0.0013937986 [s]
+Time for neighbor local ALBs communcation = 1.7656938 [s]
+Time for ALB HFX init = 0.00017225905 [s]
+Time for iterGemmT        = 9  timeGemmT        = 0.001450879
+Time for iterRow2Col      = 18  timeTrans        = 0.20078324
+Time for iterAllreduce    = 9  timeAllreduce    = 0.36879757
+Time for iterCopy         = 9  timeCopy         = 0.0044864171
+Time for Dpsi 0.66818691 [s]
+Time for iterFFT      = 480  timeFFT         = 3.1256436
+Time for iterTensor   = 2160  timeTensor      = 0.17322465
+Time for iterBcast    = 240  timeBcast       = 0.0855591
+Time for iterOther    = 2760  timeOther       = 0.19661759
+Time for ALB pair potential with FFT poisson solver 3.8845006 [s]
+Time for iterGemmT        = 18  timeGemmT        = 0.0043282671
+Time for iterRow2Col      = 18  timeTrans        = 0.19749553
+Time for iterAllreduce    = 10  timeAllreduce    = 0.0074014386
+Time for iterAxpy         = 9  timeAxpy         = 0.00044635571
+Time for iterOther        = 9  timeOther        = 2.8533333e-05
+Time for HFX matrix and energy 0.26958047 [s]
+
+  Results obtained from DGHFX: 
+Fock energy       = -8.61931248e+03 [au]  
+
+Time for HFX building without ALBs communication 4.8859861 [s]
+ Time for constructing the DGHFX matrix is 6.6707373 [s]
+
+ Time for constructing the DG (DFT + HFX) matrix is 25.282827 [s]
+
+Time for compressing the information in DistElemMat is 0.014665542 [s]
+
+Time for communication of the information of DistElemMat is 3.7286568 [s]
+
+Time for writing the matrix to distSparseMat is 0.018722598 [s]
+
+ Time for converting the DG matrix to DistSparseMatrix format is 3.784053 [s]
+
+H.size = 768000
+H.nnz  = 1644480000
+H.nnzLocal  = 979200
+H.colptrLocal.m() = 481
+H.rowindLocal.m() = 979200
+H.nzvalLocal.m() = 979200
+numProcPEXSICommRow_ = 0
+numProcPEXSICommCol_ = 1600
+mpirankRow = 0
+mpirankCol = 0
+ Time for loading the matrix into PEXSI is 0.050063269 [s]
+
+
+muInertiaTolerance        = 0.01
+numElectronPEXSITolerance = 0.11824451
+Symbolic factorization    =  0
+ Time for the main PEXSI Driver is 73.736013 [s]
+
+Before retrieve
+ Time for retrieving PEXSI data is 0.034819407 [s]
+
+NOTE: Free energy = Energy in PPEXSIDFTDriver3!
+
+Results obtained from PEXSI:
+Total energy (H*DM)         = 4856.1492
+Total energy (S*EDM)        = 4856.1802
+Total free energy           = -25660.259
+InertiaIter                 = 0
+mu                          = 0.48979593
+numElectron                 = 350304.24
+
+Time for converting the matrix locally is 0.11067985 [s]
+
+Time for actual communication is 1.5822368 [s]
+
+Time for converting the matrix locally is 0.11145832 [s]
+
+Time for actual communication is 1.5888487 [s]
+
+Time for converting the matrix locally is 0.11191447 [s]
+
+Time for actual communication is 1.6110175 [s]
+
+ Time for converting the DistSparseMatrices to DistElemMat for post-processing is 5.1241573 [s]
+
+ Time for broadcasting the density matrix for post-processing is 1.9380968e-07 [s]
+
+ Time for calculating the Harris energy is 0.012605188 [s]
+
+
+ Before interpolation
+ After interpolation
+
+ Sum Rho on LGL grid (raw data) = +3.82130955e+05 
+ Sum Rho on uniform grid (interpolated) = +3.52261981e+05 
+
+ Time for computing density in the global domain is 0.061491153 [s]
+
+ Time for calculating gradient of density is 7.2789108 [s]
+
+Time for calling the XC kernel is 0.065441605 [s]
+
+ Time for computing the potential is 22.718864 [s]
+
+ Time for PEXSI evaluation is 105.57032 [s]
+
+ Time for computing the SCF residual is 0.0012126148 [s]
+
+Rank of dfmat = 1, rcond = 1e-12
+ Time for mixing is 0.39548081 [s]
+
+
+Eigenvalues in the global domain.
+
+EfreeHarris       = +1.11706335e+05 [au]  
+Etot              = -4.72753487e+04 [au]  
+Efree             = -4.72753487e+04 [au]  
+Ekin              = +4.85614917e+03 [au]  
+Ehart             = +4.97864681e+03 [au]  
+EVxc              = -1.07004716e+05 [au]  
+Exc               = -8.21575671e+04 [au]  
+Evdw              = +0.00000000e+00 [au]  
+Eself             = +7.20000000e+04 [au]  
+Ecor              = -5.21314979e+04 [au]  
+Fermi             = +4.89795933e-01 [au]  
+ Time for this inner SCF iteration = 131.30162 [s]
+
+ Time for all inner SCF iterations is 131.30288 [s]
+
+OUTERSCF: EfreeHarris                 = +1.11706335e+05 
+OUTERSCF: Efree                       = -4.72753487e+04 
+OUTERSCF: norm(out-in)/norm(in) = +2.25356481e+02 
+OUTERSCF: Efree diff per atom   = +2.20807894e+00 
+
+ Time for this SCF iteration = 139.35948 [s]
+
+*********************************************************************
+ Outer SCF iteration # 3
+*********************************************************************
+
+#######################
+ Time for updating the local potential in the extended element and the element is 1.6295445 [s]
+
+ The current tolerance used by the eigensolver is 1e-20
+ The target number of converged eigenvectors is 120
+
+ iter 3 ; isHybrid_ 1
+ ham.isEXXActive_  1
+Time for updating Phi related variable is 4.609025 [s]
+
+Print time for Hpsi in spinor module 
+Time for blas::Copy       = 8  timeCopy         = 0.0090132714
+Time for iterFFTCoarse    = 4  timeFFTCoarse    = 0.025819498
+Time for iterFFTFine      = 4  timeFFTFine      = 0.025957926
+Time for Interpolation    = 4  timeC2F          = 0.00068795429
+Time for Local            = 2  timeLocal        = 0.00045084524
+Time for Nonlocal         = 2  timeNonlocal     = 0.0032501929
+Time for Laplace          = 2  timeLaplace      = 0.00033178476
+Time for psi.AddMultSpinorFineR2C is 0.083799965 [s]
+
+Time for updating hybrid Spinor is 0.28186379 [s]
+
+Time for Gemm is 0.0069128529 [s]
+
+Time for Alltoallv is 0.26632204 [s]
+
+Time for Allreduce is 0.00119219 [s]
+
+Minimum tolerance is 0.001
+Print time for Precondition
+Time for Copy             = 4  timeCopy         = 0.0062024876
+Time for iterFFTCoarse    = 4  timeFFTCoarse    = 0.025754224
+Time for Teter            = 2  timeTeter        = 0.00033577952
+Print time for Hpsi in spinor module 
+Time for blas::Copy       = 8  timeCopy         = 0.0090219076
+Time for iterFFTCoarse    = 4  timeFFTCoarse    = 0.025761545
+Time for iterFFTFine      = 4  timeFFTFine      = 0.025956593
+Time for Interpolation    = 4  timeC2F          = 0.00074703143
+Time for Local            = 2  timeLocal        = 0.00045951048
+Time for Nonlocal         = 2  timeNonlocal     = 0.0032445624
+Time for Laplace          = 2  timeLaplace      = 0.00032702952
+Time for psi.AddMultSpinorFineR2C is 0.08276033 [s]
+
+Time for updating hybrid Spinor is 0.27566357 [s]
+
+Time for Gemm is 0.0069691033 [s]
+
+Time for Alltoallv is 0.26067642 [s]
+
+Time for Allreduce is 0.00053118952 [s]
+
+Print time for Precondition
+Time for Copy             = 4  timeCopy         = 0.0061261814
+Time for iterFFTCoarse    = 4  timeFFTCoarse    = 0.025749587
+Time for Teter            = 2  timeTeter        = 0.00032494333
+Print time for Hpsi in spinor module 
+Time for blas::Copy       = 8  timeCopy         = 0.0090006486
+Time for iterFFTCoarse    = 4  timeFFTCoarse    = 0.02584464
+Time for iterFFTFine      = 4  timeFFTFine      = 0.025979785
+Time for Interpolation    = 4  timeC2F          = 0.00069086
+Time for Local            = 2  timeLocal        = 0.0004517819
+Time for Nonlocal         = 2  timeNonlocal     = 0.0032727905
+Time for Laplace          = 2  timeLaplace      = 0.00032680429
+Time for psi.AddMultSpinorFineR2C is 0.083024467 [s]
+
+Time for updating hybrid Spinor is 0.27562869 [s]
+
+Time for Gemm is 0.0069467114 [s]
+
+Time for Alltoallv is 0.26067784 [s]
+
+Time for Allreduce is 0.00059558905 [s]
+
+
+After 2 iterations, LOBPCG did not converge. 
+The maximum norm of the residual is 2.7208748
+
+The minimum norm of the residual is 0.076623866
+
+Time for iterGemmT     = 19  timeGemmT     = 0.079681861
+Time for iterGemmN     = 13  timeGemmN     = 0.015254268
+Time for iterAllreduce = 19  timeAllreduce = 0.013167842
+Time for iterAlltoallv = 10  timeAlltoallv = 0.10440179
+Time for iterSpinor    = 5  timeSpinor    = 1.1752856
+Time for iterTrsm      = 1  timeTrsm      = 0.002476951
+Time for iterMpirank0  = 16  timeMpirank0  = 0.21891996
+
+ Eigensolver time = 1.738486 [s]
+
+ALB calculation in extended element 0 0 0 
+basis#   = 0    eigval   = -1.66230845e+02 resval   = +1.35188245e+00 
+basis#   = 1    eigval   = -1.52429257e+02 resval   = +1.07551531e+00 
+basis#   = 2    eigval   = -1.50517805e+02 resval   = +1.09695624e+00 
+basis#   = 3    eigval   = -1.36895636e+02 resval   = +1.15493260e+00 
+basis#   = 4    eigval   = -1.26060624e+02 resval   = +8.64837876e-01 
+basis#   = 5    eigval   = -1.23886634e+02 resval   = +1.04803242e+00 
+basis#   = 6    eigval   = -1.23225816e+02 resval   = +8.35868458e-01 
+basis#   = 7    eigval   = -1.22497204e+02 resval   = +7.07101496e-01 
+basis#   = 8    eigval   = -1.22295367e+02 resval   = +1.11609390e-01 
+basis#   = 9    eigval   = -1.21630045e+02 resval   = +1.03074594e-01 
+basis#   = 10   eigval   = -1.20673986e+02 resval   = +1.25198907e-01 
+basis#   = 11   eigval   = -1.16919506e+02 resval   = +1.28758307e-01 
+basis#   = 12   eigval   = -1.12021244e+02 resval   = +7.66238657e-02 
+basis#   = 13   eigval   = -1.08012918e+02 resval   = +9.69569284e-02 
+basis#   = 14   eigval   = -1.01376199e+02 resval   = +8.86865140e-02 
+basis#   = 15   eigval   = -9.64103989e+01 resval   = +8.41736009e-02 
+basis#   = 16   eigval   = -1.00891566e+00 resval   = +1.97609197e+00 
+basis#   = 17   eigval   = -1.00399081e+00 resval   = +5.35361295e-01 
+basis#   = 18   eigval   = -8.24281851e-01 resval   = +8.36084795e-01 
+basis#   = 19   eigval   = -7.22288836e-01 resval   = +1.48748667e+00 
+basis#   = 20   eigval   = -6.89688858e-01 resval   = +1.49658791e+00 
+basis#   = 21   eigval   = -4.95811103e-01 resval   = +1.45431647e+00 
+basis#   = 22   eigval   = -4.54879095e-01 resval   = +8.21200294e-01 
+basis#   = 23   eigval   = -4.11562018e-01 resval   = +2.72087476e+00 
+basis#   = 24   eigval   = -4.05817684e-01 resval   = +4.78863239e-01 
+basis#   = 25   eigval   = -3.87495369e-01 resval   = +1.54187075e-01 
+basis#   = 26   eigval   = -3.83223367e-01 resval   = +6.55167037e-01 
+basis#   = 27   eigval   = -3.78307334e-01 resval   = +3.26896080e-01 
+basis#   = 28   eigval   = -3.70799603e-01 resval   = +9.80695596e-02 
+basis#   = 29   eigval   = -3.61683462e-01 resval   = +2.99669447e-01 
+basis#   = 30   eigval   = -3.59937554e-01 resval   = +4.27605682e-01 
+basis#   = 31   eigval   = -3.53823413e-01 resval   = +1.60966242e-01 
+basis#   = 32   eigval   = -3.52417035e-01 resval   = +2.25285080e-01 
+basis#   = 33   eigval   = -3.47514069e-01 resval   = +1.97729472e-01 
+basis#   = 34   eigval   = -3.46882647e-01 resval   = +1.69138601e-01 
+basis#   = 35   eigval   = -3.44762449e-01 resval   = +1.89585097e-01 
+basis#   = 36   eigval   = -3.43944831e-01 resval   = +1.44091430e-01 
+basis#   = 37   eigval   = -3.41009554e-01 resval   = +1.65147931e-01 
+basis#   = 38   eigval   = -3.40108686e-01 resval   = +2.39064144e-01 
+basis#   = 39   eigval   = -3.35786166e-01 resval   = +1.35468839e-01 
+basis#   = 40   eigval   = -3.34939871e-01 resval   = +3.71670163e-01 
+basis#   = 41   eigval   = -3.27812604e-01 resval   = +1.93578409e-01 
+basis#   = 42   eigval   = -3.20087562e-01 resval   = +5.76243761e-01 
+basis#   = 43   eigval   = -3.16864646e-01 resval   = +3.78063688e-01 
+basis#   = 44   eigval   = -3.13049567e-01 resval   = +1.18213337e-01 
+basis#   = 45   eigval   = -3.04469108e-01 resval   = +5.10755505e-01 
+basis#   = 46   eigval   = -2.95402371e-01 resval   = +5.79759873e-01 
+basis#   = 47   eigval   = -2.85782133e-01 resval   = +7.44994363e-01 
+basis#   = 48   eigval   = -2.81977375e-01 resval   = +2.55164213e-01 
+basis#   = 49   eigval   = -2.77472926e-01 resval   = +1.80297868e-01 
+basis#   = 50   eigval   = -2.76390227e-01 resval   = +1.37709742e-01 
+basis#   = 51   eigval   = -2.71490131e-01 resval   = +2.19887210e-01 
+basis#   = 52   eigval   = -2.70005602e-01 resval   = +1.91592811e-01 
+basis#   = 53   eigval   = -2.65527707e-01 resval   = +1.80554755e-01 
+basis#   = 54   eigval   = -2.63531443e-01 resval   = +2.04098043e-01 
+basis#   = 55   eigval   = -2.57531869e-01 resval   = +2.05832476e-01 
+basis#   = 56   eigval   = -2.54099859e-01 resval   = +3.29746365e-01 
+basis#   = 57   eigval   = -2.53021550e-01 resval   = +3.11013811e-01 
+basis#   = 58   eigval   = -2.50983049e-01 resval   = +1.13487883e-01 
+basis#   = 59   eigval   = -2.48985259e-01 resval   = +1.58158108e-01 
+basis#   = 60   eigval   = -2.47076948e-01 resval   = +1.31854957e-01 
+basis#   = 61   eigval   = -2.43334442e-01 resval   = +1.80358821e-01 
+basis#   = 62   eigval   = -2.39274892e-01 resval   = +1.49232060e-01 
+basis#   = 63   eigval   = -2.37626643e-01 resval   = +1.96275654e-01 
+basis#   = 64   eigval   = -2.36644948e-01 resval   = +2.28305482e-01 
+basis#   = 65   eigval   = -2.33661138e-01 resval   = +3.48903492e-01 
+basis#   = 66   eigval   = -2.28618735e-01 resval   = +3.26751436e-01 
+basis#   = 67   eigval   = -2.24818009e-01 resval   = +2.37464258e-01 
+basis#   = 68   eigval   = -2.16623366e-01 resval   = +2.00482092e-01 
+basis#   = 69   eigval   = -2.08461112e-01 resval   = +4.73171978e-01 
+basis#   = 70   eigval   = -2.06224481e-01 resval   = +6.02954483e-01 
+basis#   = 71   eigval   = -1.90901637e-01 resval   = +3.14723151e-01 
+basis#   = 72   eigval   = -1.88137249e-01 resval   = +8.28956676e-01 
+basis#   = 73   eigval   = -1.76455745e-01 resval   = +4.85349206e-01 
+basis#   = 74   eigval   = -1.73252117e-01 resval   = +8.35398117e-01 
+basis#   = 75   eigval   = -1.69357916e-01 resval   = +2.31450476e-01 
+basis#   = 76   eigval   = -1.64421248e-01 resval   = +6.20274065e-01 
+basis#   = 77   eigval   = -1.60414073e-01 resval   = +3.13377965e-01 
+basis#   = 78   eigval   = -1.54001131e-01 resval   = +2.66401311e-01 
+basis#   = 79   eigval   = -1.50055768e-01 resval   = +2.25182524e-01 
+basis#   = 80   eigval   = -1.47071087e-01 resval   = +2.65363522e-01 
+basis#   = 81   eigval   = -1.46138293e-01 resval   = +3.10643484e-01 
+basis#   = 82   eigval   = -1.44893871e-01 resval   = +4.34452857e-01 
+basis#   = 83   eigval   = -1.42127064e-01 resval   = +4.05632042e-01 
+basis#   = 84   eigval   = -1.37914538e-01 resval   = +2.95050973e-01 
+basis#   = 85   eigval   = -1.35447348e-01 resval   = +2.60766324e-01 
+basis#   = 86   eigval   = -1.29968312e-01 resval   = +2.40447211e-01 
+basis#   = 87   eigval   = -1.27027490e-01 resval   = +4.20889746e-01 
+basis#   = 88   eigval   = -1.25024532e-01 resval   = +3.26429486e-01 
+basis#   = 89   eigval   = -1.20833826e-01 resval   = +4.10303399e-01 
+basis#   = 90   eigval   = -1.17146382e-01 resval   = +3.12206558e-01 
+basis#   = 91   eigval   = -1.14812723e-01 resval   = +2.16317530e-01 
+basis#   = 92   eigval   = -1.06621238e-01 resval   = +4.35763158e-01 
+basis#   = 93   eigval   = -1.03879671e-01 resval   = +3.68069863e-01 
+basis#   = 94   eigval   = -1.02182117e-01 resval   = +2.36589864e-01 
+basis#   = 95   eigval   = -1.00218704e-01 resval   = +2.41166092e-01 
+basis#   = 96   eigval   = -9.77910514e-02 resval   = +2.22572624e-01 
+basis#   = 97   eigval   = -9.37434513e-02 resval   = +2.49719967e-01 
+basis#   = 98   eigval   = -9.13861579e-02 resval   = +3.80934653e-01 
+basis#   = 99   eigval   = -8.68306986e-02 resval   = +2.57157612e-01 
+basis#   = 100  eigval   = -8.39051459e-02 resval   = +3.44099082e-01 
+basis#   = 101  eigval   = -7.82517480e-02 resval   = +3.63121420e-01 
+basis#   = 102  eigval   = -7.18196034e-02 resval   = +3.05312754e-01 
+basis#   = 103  eigval   = -6.99777960e-02 resval   = +3.77274550e-01 
+basis#   = 104  eigval   = -6.36030188e-02 resval   = +4.00824444e-01 
+basis#   = 105  eigval   = -5.83722087e-02 resval   = +2.57356954e-01 
+basis#   = 106  eigval   = -5.50548945e-02 resval   = +4.10952227e-01 
+basis#   = 107  eigval   = -5.06355835e-02 resval   = +4.27813949e-01 
+basis#   = 108  eigval   = -4.54318359e-02 resval   = +4.18355595e-01 
+basis#   = 109  eigval   = -3.95787269e-02 resval   = +2.00364739e-01 
+basis#   = 110  eigval   = -3.86236498e-02 resval   = +2.76818923e-01 
+basis#   = 111  eigval   = -3.34151286e-02 resval   = +5.86845717e-01 
+basis#   = 112  eigval   = -3.08423895e-02 resval   = +2.67242929e-01 
+basis#   = 113  eigval   = -2.24056675e-02 resval   = +2.92871087e-01 
+basis#   = 114  eigval   = -1.87850571e-02 resval   = +3.58517915e-01 
+basis#   = 115  eigval   = -1.30233254e-02 resval   = +2.76161365e-01 
+basis#   = 116  eigval   = +7.60701322e-03 resval   = +2.24777989e-01 
+basis#   = 117  eigval   = +2.05340196e-02 resval   = +2.70467248e-01 
+basis#   = 118  eigval   = +2.64851978e-01 resval   = +4.03151391e-01 
+basis#   = 119  eigval   = +6.97512931e-01 resval   = +2.83618639e-01 
+
+ Max residual of basis = +2.72087476e+00 
+ Avg residual of basis = +4.21160538e-01 
+
+ Time for interpolating basis = 0.0048057405 [s]
+NOTE: The number of basis functions (after SVD) is the same as the number in the first SCF iteration.
+This facilitates the reuse of symbolic factorization in PEXSI.
+ Number of significant SVD basis = 120
+ Time for SVD of basis = 0.061021334 [s]
+
+ Time for generating ALB function is 6.4866124 [s]
+
+
+ Inner SCF iteration #1 starts.
+
+ Time for constructing the DG matrix is 18.945182 [s]
+
+ Start HFX calculations 
+Time for LGL2Unifom ALBs = 0.0013943976 [s]
+Time for neighbor local ALBs communcation = 1.782416 [s]
+Time for ALB HFX init = 0.0005900281 [s]
+Time for iterGemmT        = 9  timeGemmT        = 0.0014519514
+Time for iterRow2Col      = 18  timeTrans        = 0.20076004
+Time for iterAllreduce    = 9  timeAllreduce    = 0.36560216
+Time for iterCopy         = 9  timeCopy         = 0.0045085838
+Time for Dpsi 0.66534424 [s]
+Time for iterFFT      = 480  timeFFT         = 3.1263421
+Time for iterTensor   = 2160  timeTensor      = 0.17358291
+Time for iterBcast    = 240  timeBcast       = 0.084839064
+Time for iterOther    = 2760  timeOther       = 0.19649302
+Time for ALB pair potential with FFT poisson solver 3.9425826 [s]
+Time for iterGemmT        = 18  timeGemmT        = 0.0043370395
+Time for iterRow2Col      = 18  timeTrans        = 0.19373283
+Time for iterAllreduce    = 10  timeAllreduce    = 0.0093609748
+Time for iterAxpy         = 9  timeAxpy         = 0.00040354714
+Time for iterOther        = 9  timeOther        = 2.8276189e-05
+Time for HFX matrix and energy 0.28762953 [s]
+
+  Results obtained from DGHFX: 
+Fock energy       = -1.30801611e+04 [au]  
+
+Time for HFX building without ALBs communication 5.003479 [s]
+ Time for constructing the DGHFX matrix is 6.8057937 [s]
+
+ Time for constructing the DG (DFT + HFX) matrix is 25.780231 [s]
+
+Time for compressing the information in DistElemMat is 0.014752111 [s]
+
+Time for communication of the information of DistElemMat is 3.8180836 [s]
+
+Time for writing the matrix to distSparseMat is 0.01666475 [s]
+
+ Time for converting the DG matrix to DistSparseMatrix format is 3.8710094 [s]
+
+H.size = 768000
+H.nnz  = 1644480000
+H.nnzLocal  = 979200
+H.colptrLocal.m() = 481
+H.rowindLocal.m() = 979200
+H.nzvalLocal.m() = 979200
+numProcPEXSICommRow_ = 0
+numProcPEXSICommCol_ = 1600
+mpirankRow = 0
+mpirankCol = 0
+ Time for loading the matrix into PEXSI is 0.049873951 [s]
+
+
+muInertiaTolerance        = 0.01
+numElectronPEXSITolerance = 0.5
+Symbolic factorization    =  0
+ Time for the main PEXSI Driver is 73.951906 [s]
+
+Before retrieve
+ Time for retrieving PEXSI data is 0.034195049 [s]
+
+NOTE: Free energy = Energy in PPEXSIDFTDriver3!
+
+Results obtained from PEXSI:
+Total energy (H*DM)         = -345392.92
+Total energy (S*EDM)        = -12430059
+Total free energy           = 12894538
+InertiaIter                 = 0
+mu                          = 46.341617
+numElectron                 = 231637.28
+
+Time for converting the matrix locally is 0.11165659 [s]
+
+Time for actual communication is 1.6832168 [s]
+
+Time for converting the matrix locally is 0.11147569 [s]
+
+Time for actual communication is 1.5390835 [s]
+
+Time for converting the matrix locally is 0.11379559 [s]
+
+Time for actual communication is 1.6162435 [s]
+
+ Time for converting the DistSparseMatrices to DistElemMat for post-processing is 5.1836457 [s]
+
+ Time for broadcasting the density matrix for post-processing is 1.9380968e-07 [s]
+
+ Time for calculating the Harris energy is 0.017480053 [s]
+
+
+ Before interpolation
+ After interpolation
+
+ Sum Rho on LGL grid (raw data) = +2.74704199e+05 
+ Sum Rho on uniform grid (interpolated) = +2.65759044e+05 
+
+ Time for computing density in the global domain is 0.053967279 [s]
+
+ Time for calculating gradient of density is 7.4207281 [s]
+
+Time for calling the XC kernel is 0.065457695 [s]
+
+ Time for computing the potential is 22.955118 [s]
+
+ Time for PEXSI evaluation is 106.1656 [s]
+
+ Time for computing the SCF residual is 0.00094929 [s]
+
+Rank of dfmat = 2, rcond = 1e-12
+ Time for mixing is 0.1947023 [s]
+
+
+Eigenvalues in the global domain.
+
+EfreeHarris       = +1.24371131e+07 [au]  
+Etot              = -2.15763319e+06 [au]  
+Efree             = -2.15763319e+06 [au]  
+Ekin              = -3.45392922e+05 [au]  
+Ehart             = +1.75839209e+06 [au]  
+EVxc              = -1.10132536e+05 [au]  
+Exc               = -9.19807055e+04 [au]  
+Evdw              = +0.00000000e+00 [au]  
+Eself             = +7.20000000e+04 [au]  
+Ecor              = -1.81224026e+06 [au]  
+Fermi             = +4.63416174e+01 [au]  
+ Time for this inner SCF iteration = 132.20268 [s]
+
+ Time for all inner SCF iterations is 132.20629 [s]
+
+OUTERSCF: EfreeHarris                 = +1.24371131e+07 
+OUTERSCF: Efree                       = -2.15763319e+06 
+OUTERSCF: norm(out-in)/norm(in) = +1.00017381e+00 
+OUTERSCF: Efree diff per atom   = +2.02704809e+02 
+
+ Time for this SCF iteration = 140.33428 [s]
+
+Total time for all SCF iterations = 645.76277 [s]
+ Total number of outer SCF steps (SCF not converged) = 3
+
+*********************************************************************
+Energy
+*********************************************************************
+
+NOTE:  Ecor  = Exc - EVxc - Ehart - Eself + Evdw
+       Etot  = Ekin + Ecor
+       Efree = Etot    + Entropy
+
+! EfreeHarris     = +1.24371131e+07 [au]  
+! Etot            = -2.15763319e+06 [au]  
+! Efree           = -2.15763319e+06 [au]  
+! Evdw            = +0.00000000e+00 [au]  
+! Fermi           = +4.63416174e+01 [au]  
+
+  Convergence information : 
+! norm(out-in)/norm(in) = +1.00017381e+00 
+! Efree diff per atom   = +2.02704809e+02 [au]  
+
+Output the structure information
+
+ Time for outputing data is = 0.12868808 [s]
+! Total time for the SCF iteration = 669.39355 [s]
+

@@ -1,0 +1,9 @@
+dgdft -in [inFile]
+in:             Input file (default: dgdft.in)
+[0x4ffff169b550] 
+[0x4ffff169be9c] 
+[0x4ffff1734220] 
+[31m[1m  SWCH Error: MYID = 274(vn15775, CG4): Segmentation fault! Myid = 274, pid = 790, PC = 0: <swch_catchsig()@src/mpid/ch3/channels/swch/src/ch3_init.c:1415>. [0m
+[5141357 ## 2023-04-09/18:55:31] receive request of kill job(bkill).
+dgdft -in [inFile]
+in:             Input file (default: dgdft.in)

@@ -1,0 +1,199 @@
+H.size     = 1105920
+H.nnzLocal = 460800
+S.size     = 0
+S.nnzLocal = 0
+
+
+120 numProcCol: 4608 numPole 60
+552960 0 myPoint 0 nPoints 2
+rank : 0
+node_info : vn2, CG0
+Perform symbolic factorization now.
+Symbolic factorization for the complex matrix.
+Time for SuperMatrix conversion is 0.00743056 [s]
+
+Memory cost of symbolic factorization (MB): 
+Total: 672487, Average: 145.939, Max: 180.882
+
+Time for symbolic factorization is 465.596 [s]
+
+Time for converting LUstruct to PMatrix is 0.135137 [s]
+
+Time for constructing communication pattern is 0.789922 [s]
+
+Number of local nonzeros (L+U) = 4542978
+Number of nonzeros (L+U)       = 18691593594
+
+input (muMin, muMax)   = (-1, 1)
+  >> total Number of Points : 2
+  >> Pole Expansion Method  : 1
+  >> number of Poles used   : 60
+
+Pole 0 processing...
+zshift           = (-0.333245,0.000708997)
+zweightRho       = (1.5814e-05,-5.16502e-05)
+Total FLOPs for factorization is (by swperf)1.98612e+15
+******************SUPERLU STATISTICS****************
+Number of tiny pivots: 0
+Number of look aheads: 10
+Number of FLOPS for factorization: 1.45392e+15
+****************************************************
+Time for total factorization is 18.8507 [s]
+Total FLOPs for selected inversion is (by swperf)1.88614e+15
+Time for total selected inversion is 24.9493 [s]
+Total FLOPs for selected inversion is 1.46303e+15
+Total TFLOPS for selected inversion is 58.6402
+Time for PMatrixToDistSparseMatrix is 0.824749 [s]
+Time for UpdateDM is 0.0449884 [s]
+Time for postprocessing is 0.871168 [s]
+Time for pole 0 is 44.6971 [s]
+
+
+numElecLocal = -1.29299e-06
+PEXSI Converged 
+converged idx               = 1               
+converged NeVec[mu_idx]     = +3.71570036e+05 
+numElectronTolerance        = +5.00000000e-01 
+Final mu                    = +3.33333333e-01 
+ Free Energy S Tr[S*FDM] 31022.491
+
+(Point 0) Total number of inertia counts       = 0
+(Point 0) Total time for inertia count step    = 0 [s]
+(Point 0) Total time for PEXSI step            = 46.373571 [s]
+(Point 0) Total time for the DFT driver        = 513.4964 [s]
+
+Final result 
+mu                          = +3.33333333e-01 
+muMin                       = +3.33333333e-01 
+muMax                       = +1.00000000e+00 
+Computed number of electron = -5.95812266e-03 
+Exact number of electron    = +4.14720000e+05 
+Total energy (H*DM)         = +1.66345782e+04 
+Total energy (Tr[EDM])      = +4.63014608e+00 
+Total free energy           = +3.10224909e+04 
+
+
+H.size     = 1105920
+H.nnzLocal = 460800
+S.size     = 0
+S.nnzLocal = 0
+
+
+120 numProcCol: 4608 numPole 60
+552960 0 myPoint 0 nPoints 2
+rank : 0
+node_info : vn2, CG0
+Skip symbolic factorization
+NOTE: This assumes that symbolic factorization has been done, and the input H and S matrices have the same sparisty as previously used.
+
+input (muMin, muMax)   = (0.1986573, 1.0700408)
+  >> total Number of Points : 2
+  >> Pole Expansion Method  : 1
+  >> number of Poles used   : 60
+
+Pole 0 processing...
+zshift           = (0.48920665,0.00070899683)
+zweightRho       = (1.5813989e-05,-5.1650192e-05)
+Total FLOPs for factorization is (by swperf)1.9861228e+15
+******************SUPERLU STATISTICS****************
+Number of tiny pivots: 0
+Number of look aheads: 10
+Number of FLOPS for factorization: 1.4539224e+15
+****************************************************
+Time for total factorization is 17.777781 [s]
+Total FLOPs for selected inversion is (by swperf)1.8861397e+15
+Time for total selected inversion is 24.167881 [s]
+Total FLOPs for selected inversion is 1.4630331e+15
+Total TFLOPS for selected inversion is 60.536261
+Time for PMatrixToDistSparseMatrix is 0.83898739 [s]
+Time for UpdateDM is 0.044750549 [s]
+Time for postprocessing is 0.88530521 [s]
+Time for pole 0 is 42.859825 [s]
+
+
+numElecLocal = 109.66069
+PEXSI Converged 
+converged idx               = 0               
+converged NeVec[mu_idx]     = +5.03449381e+05 
+numElectronTolerance        = +2.38457015e-02 
+Final mu                    = +4.89118453e-01 
+ Free Energy S Tr[S*FDM] -35696.906
+
+(Point 0) Total number of inertia counts       = 0
+(Point 0) Total time for inertia count step    = 0 [s]
+(Point 0) Total time for PEXSI step            = 46.502527 [s]
+(Point 0) Total time for the DFT driver        = 46.528739 [s]
+
+Final result 
+mu                          = +4.89118453e-01 
+muMin                       = +1.98657298e-01 
+muMax                       = +4.89118453e-01 
+Computed number of electron = +5.03449381e+05 
+Exact number of electron    = +4.14720000e+05 
+Total energy (H*DM)         = +7.69763449e+03 
+Total energy (Tr[EDM])      = +7.70237988e+03 
+Total free energy           = -3.56969056e+04 
+
+
+H.size     = 1105920
+H.nnzLocal = 460800
+S.size     = 0
+S.nnzLocal = 0
+
+
+120 numProcCol: 4608 numPole 60
+552960 0 myPoint 0 nPoints 2
+rank : 0
+node_info : vn2, CG0
+Skip symbolic factorization
+NOTE: This assumes that symbolic factorization has been done, and the input H and S matrices have the same sparisty as previously used.
+
+input (muMin, muMax)   = (0.17801818, 0.51658096)
+  >> total Number of Points : 2
+  >> Pole Expansion Method  : 1
+  >> number of Poles used   : 60
+
+Pole 0 processing...
+zshift           = (0.29096064,0.00070899683)
+zweightRho       = (1.5813989e-05,-5.1650192e-05)
+Total FLOPs for factorization is (by swperf)1.9861228e+15
+******************SUPERLU STATISTICS****************
+Number of tiny pivots: 0
+Number of look aheads: 10
+Number of FLOPS for factorization: 1.4539224e+15
+****************************************************
+Time for total factorization is 20.223467 [s]
+Total FLOPs for selected inversion is (by swperf)1.8861397e+15
+Time for total selected inversion is 23.895585 [s]
+Total FLOPs for selected inversion is 1.4630331e+15
+Total TFLOPS for selected inversion is 61.226086
+Time for PMatrixToDistSparseMatrix is 0.81897858 [s]
+Time for UpdateDM is 0.04425026 [s]
+Time for postprocessing is 0.86476616 [s]
+Time for pole 0 is 45.010594 [s]
+
+
+numElecLocal = 103.60964
+PEXSI Converged 
+converged idx               = 0               
+converged NeVec[mu_idx]     = +4.75866042e+05 
+numElectronTolerance        = +3.25765327e-02 
+Final mu                    = +2.90872444e-01 
+ Free Energy S Tr[S*FDM] -48554.821
+
+(Point 0) Total number of inertia counts       = 0
+(Point 0) Total time for inertia count step    = 0 [s]
+(Point 0) Total time for PEXSI step            = 46.178741 [s]
+(Point 0) Total time for the DFT driver        = 46.198009 [s]
+
+Final result 
+mu                          = +2.90872444e-01 
+muMin                       = +1.78018185e-01 
+muMax                       = +2.90872444e-01 
+Computed number of electron = +4.75866042e+05 
+Exact number of electron    = +4.14720000e+05 
+Total energy (H*DM)         = -3.07736951e+04 
+Total energy (Tr[EDM])      = -3.07689462e+04 
+Total free energy           = -4.85548207e+04 
+
+
